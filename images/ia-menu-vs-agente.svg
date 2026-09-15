@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" width="840" height="460" role="img" aria-label="Comparação entre um chatbot de menu com opções numeradas que não entende a pergunta e um agente de IA que compreende e responde">
+  <defs>
+    <linearGradient id="vbg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#050f1d"/>
+    </linearGradient>
+    <style>.t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+  </defs>
+
+  <rect width="840" height="460" fill="url(#vbg2)"/>
+  <circle cx="660" cy="120" r="190" fill="#208bf4" opacity=".06"/>
+
+  <text class="t" x="52" y="38" fill="#e05a5a" font-size="12" font-weight="700" letter-spacing="1.5">CHATBOT DE MENU</text>
+  <text class="t" x="486" y="38" fill="#3ddc97" font-size="12" font-weight="700" letter-spacing="1.5">AGENTE DE IA</text>
+
+  <!-- ===== esquerda: menu burro ===== -->
+  <g transform="translate(40,58)">
+    <rect x="0" y="0" width="356" height="332" rx="16" fill="#0d1c2e" stroke="#4a2626" stroke-width="2"/>
+    <rect x="0" y="0" width="356" height="40" rx="16" fill="#1a1010"/>
+    <rect x="0" y="28" width="356" height="12" fill="#1a1010"/>
+    <circle cx="24" cy="21" r="9" fill="#5d738c"/>
+    <text class="t" x="42" y="26" fill="#d8c2c2" font-size="12" font-weight="600">Atendimento automático</text>
+
+    <!-- cliente -->
+    <g transform="translate(96,58)">
+      <rect x="0" y="0" width="240" height="44" rx="12" fill="#1f3a57"/>
+      <text class="t" x="14" y="19" fill="#dceaf7" font-size="11.5">Oi, vocês entregam em Ipatinga</text>
+      <text class="t" x="14" y="35" fill="#dceaf7" font-size="11.5">ainda hoje? É urgente.</text>
+    </g>
+
+    <!-- bot menu -->
+    <g transform="translate(20,116)">
+      <rect x="0" y="0" width="250" height="126" rx="12" fill="#18212e"/>
+      <text class="t" x="14" y="22" fill="#b9c5d2" font-size="11.5">Digite a opção desejada:</text>
+      <text class="t" x="14" y="44" fill="#8fa3b8" font-size="11.5">1 - Comprar</text>
+      <text class="t" x="14" y="62" fill="#8fa3b8" font-size="11.5">2 - Segunda via</text>
+      <text class="t" x="14" y="80" fill="#8fa3b8" font-size="11.5">3 - Falar com atendente</text>
+      <text class="t" x="14" y="98" fill="#8fa3b8" font-size="11.5">4 - Outros assuntos</text>
+      <text class="t" x="14" y="116" fill="#8fa3b8" font-size="11.5">0 - Voltar ao menu</text>
+    </g>
+
+    <!-- cliente irritado -->
+    <g transform="translate(200,256)">
+      <rect x="0" y="0" width="136" height="32" rx="12" fill="#1f3a57"/>
+      <text class="t" x="14" y="21" fill="#dceaf7" font-size="11.5">atendente!!!</text>
+    </g>
+
+    <!-- bot fail -->
+    <g transform="translate(20,256)">
+      <rect x="0" y="0" width="166" height="32" rx="12" fill="#2a1414"/>
+      <text class="t" x="12" y="21" fill="#e08b8b" font-size="11">Opção inválida.</text>
+    </g>
+
+    <g transform="translate(20,302)">
+      <text class="t" x="0" y="12" fill="#e05a5a" font-size="11.5" font-style="italic">O cliente desistiu e chamou o concorrente.</text>
+    </g>
+  </g>
+
+  <!-- ===== direita: agente ===== -->
+  <g transform="translate(444,58)">
+    <rect x="0" y="0" width="356" height="332" rx="16" fill="#0d1c2e" stroke="#1d5a3e" stroke-width="2"/>
+    <rect x="0" y="0" width="356" height="40" rx="16" fill="#0f2a1f"/>
+    <rect x="0" y="28" width="356" height="12" fill="#0f2a1f"/>
+    <circle cx="24" cy="21" r="9" fill="#3ddc97"/>
+    <text class="t" x="42" y="26" fill="#c9f0de" font-size="12" font-weight="600">Ana · assistente da Sua Empresa</text>
+
+    <!-- cliente -->
+    <g transform="translate(96,58)">
+      <rect x="0" y="0" width="240" height="44" rx="12" fill="#1f3a57"/>
+      <text class="t" x="14" y="19" fill="#dceaf7" font-size="11.5">Oi, vocês entregam em Ipatinga</text>
+      <text class="t" x="14" y="35" fill="#dceaf7" font-size="11.5">ainda hoje? É urgente.</text>
+    </g>
+
+    <!-- agente responde -->
+    <g transform="translate(20,116)">
+      <rect x="0" y="0" width="286" height="80" rx="12" fill="#14304a"/>
+      <text class="t" x="14" y="21" fill="#e7f1fb" font-size="11.5">Entregamos sim em Ipatinga! Para hoje,</text>
+      <text class="t" x="14" y="39" fill="#e7f1fb" font-size="11.5">o pedido precisa ser fechado até as 15h</text>
+      <text class="t" x="14" y="57" fill="#e7f1fb" font-size="11.5">— ainda dá tempo. O que você precisa?</text>
+      <text class="t" x="14" y="73" fill="#7fb4e8" font-size="10">respondeu em 4 segundos · 23h47</text>
+    </g>
+
+    <!-- cliente -->
+    <g transform="translate(120,208)">
+      <rect x="0" y="0" width="216" height="32" rx="12" fill="#1f3a57"/>
+      <text class="t" x="14" y="21" fill="#dceaf7" font-size="11.5">200 caixas do modelo A4</text>
+    </g>
+
+    <!-- agente qualifica -->
+    <g transform="translate(20,250)">
+      <rect x="0" y="0" width="286" height="62" rx="12" fill="#14304a"/>
+      <text class="t" x="14" y="21" fill="#e7f1fb" font-size="11.5">Anotado. Temos em estoque. Já passei</text>
+      <text class="t" x="14" y="39" fill="#e7f1fb" font-size="11.5">para o Marcos, do comercial — ele te</text>
+      <text class="t" x="14" y="57" fill="#e7f1fb" font-size="11.5">chama agora com o valor fechado.</text>
+    </g>
+  </g>
+
+  <!-- legendas inferiores -->
+  <g class="t">
+    <rect x="40" y="404" width="356" height="40" rx="10" fill="#1a1010" stroke="#4a2626"/>
+    <text x="56" y="429" fill="#e08b8b" font-size="12">Entende só o número que você digitou.</text>
+    <rect x="444" y="404" width="356" height="40" rx="10" fill="#0f2a1f" stroke="#1d5a3e"/>
+    <text x="460" y="429" fill="#7fe0b4" font-size="12">Entende o que a pessoa quis dizer — e age.</text>
+  </g>
+</svg>

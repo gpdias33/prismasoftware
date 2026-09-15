@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 470" width="840" height="470" role="img" aria-label="Funil de marketing digital mostrando a queda de impressões para cliques, conversas, orçamentos e vendas, com o custo por resultado em cada etapa">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#050f1d"/>
+    </linearGradient>
+    <linearGradient id="f1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f6fd0"/><stop offset="1" stop-color="#4aa8ff"/>
+    </linearGradient>
+    <linearGradient id="f5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d8a5a"/><stop offset="1" stop-color="#3ddc97"/>
+    </linearGradient>
+    <style>.t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+  </defs>
+
+  <rect width="840" height="470" fill="url(#fbg)"/>
+  <circle cx="680" cy="110" r="190" fill="#208bf4" opacity=".06"/>
+
+  <text class="t" x="52" y="44" fill="#ffffff" font-size="19" font-weight="800">Onde cada real investido vira cliente</text>
+  <text class="t" x="52" y="68" fill="#8ea7c0" font-size="13">um mês de campanha, medido etapa por etapa</text>
+
+  <!-- ===== funil ===== -->
+  <g transform="translate(52,100)">
+    <!-- etapa 1 -->
+    <g>
+      <path d="M0 0h420l-24 52H24z" fill="url(#f1)" opacity=".92"/>
+      <text class="t" x="26" y="24" fill="#ffffff" font-size="13" font-weight="700">Impressões</text>
+      <text class="t" x="26" y="42" fill="#d6e9ff" font-size="11">quem viu o seu anúncio</text>
+      <text class="t" x="394" y="34" text-anchor="end" fill="#ffffff" font-size="18" font-weight="800">184.000</text>
+    </g>
+    <!-- etapa 2 -->
+    <g transform="translate(0,60)">
+      <path d="M24 0h372l-24 52H48z" fill="#2b7fd4" opacity=".92"/>
+      <text class="t" x="50" y="24" fill="#ffffff" font-size="13" font-weight="700">Cliques</text>
+      <text class="t" x="50" y="42" fill="#d6e9ff" font-size="11">entraram no site · R$ 0,62 cada</text>
+      <text class="t" x="370" y="34" text-anchor="end" fill="#ffffff" font-size="18" font-weight="800">6.420</text>
+    </g>
+    <!-- etapa 3 -->
+    <g transform="translate(0,120)">
+      <path d="M48 0h324l-24 52H72z" fill="#2f8f8a" opacity=".92"/>
+      <text class="t" x="74" y="24" fill="#ffffff" font-size="13" font-weight="700">Conversas iniciadas</text>
+      <text class="t" x="74" y="42" fill="#d4f0ee" font-size="11">WhatsApp e formulário</text>
+      <text class="t" x="346" y="34" text-anchor="end" fill="#ffffff" font-size="18" font-weight="800">412</text>
+    </g>
+    <!-- etapa 4 -->
+    <g transform="translate(0,180)">
+      <path d="M72 0h276l-24 52H96z" fill="#219b74" opacity=".92"/>
+      <text class="t" x="98" y="24" fill="#ffffff" font-size="13" font-weight="700">Orçamentos enviados</text>
+      <text class="t" x="98" y="42" fill="#cdf2e2" font-size="11">lead qualificado pelo time</text>
+      <text class="t" x="322" y="34" text-anchor="end" fill="#ffffff" font-size="18" font-weight="800">137</text>
+    </g>
+    <!-- etapa 5 -->
+    <g transform="translate(0,240)">
+      <path d="M96 0h228l-24 52H120z" fill="url(#f5)"/>
+      <text class="t" x="122" y="24" fill="#05231a" font-size="13" font-weight="800">Vendas fechadas</text>
+      <text class="t" x="122" y="42" fill="#0a3b2b" font-size="11" font-weight="600">custo por venda: R$ 104</text>
+      <text class="t" x="298" y="34" text-anchor="end" fill="#05231a" font-size="18" font-weight="800">38</text>
+    </g>
+  </g>
+
+  <!-- ===== painel de retorno ===== -->
+  <g transform="translate(520,112)">
+    <rect x="0" y="0" width="268" height="278" rx="16" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+
+    <text class="t" x="24" y="34" fill="#4aa8ff" font-size="11" font-weight="700" letter-spacing="1.4">RESUMO DO MÊS</text>
+
+    <g transform="translate(24,52)">
+      <text class="t" x="0" y="14" fill="#8ea7c0" font-size="12">Investido em mídia</text>
+      <text class="t" x="220" y="16" text-anchor="end" fill="#ffffff" font-size="17" font-weight="800">R$ 3.980</text>
+    </g>
+
+    <path d="M24 92h220" stroke="#2c4a6e"/>
+
+    <g transform="translate(24,102)">
+      <text class="t" x="0" y="14" fill="#8ea7c0" font-size="12">Receita atribuída</text>
+      <text class="t" x="220" y="16" text-anchor="end" fill="#3ddc97" font-size="17" font-weight="800">R$ 21.700</text>
+    </g>
+
+    <path d="M24 142h220" stroke="#2c4a6e"/>
+
+    <g transform="translate(24,158)">
+      <rect x="0" y="0" width="220" height="62" rx="12" fill="#0f2a1f" stroke="#1d5a3e"/>
+      <text class="t" x="16" y="24" fill="#9ee3c2" font-size="11.5">Retorno sobre o investimento</text>
+      <text class="t" x="16" y="50" fill="#3ddc97" font-size="24" font-weight="800">5,4x</text>
+      <text class="t" x="204" y="50" text-anchor="end" fill="#7fe0b4" font-size="11">cada R$ 1 → R$ 5,45</text>
+    </g>
+
+    <g transform="translate(24,238)">
+      <text class="t" x="0" y="0" fill="#6d89a8" font-size="10.5">Números ilustrativos. O seu relatório traz</text>
+      <text class="t" x="0" y="16" fill="#6d89a8" font-size="10.5">os dados reais da sua operação.</text>
+    </g>
+  </g>
+
+  <!-- rodapé -->
+  <g transform="translate(52,424)">
+    <rect x="0" y="0" width="736" height="34" rx="10" fill="#0f2a1f" stroke="#1d5a3e"/>
+    <text class="t" x="18" y="22" fill="#9ee3c2" font-size="12">Sem esse funil montado, "investir em anúncio" é só torcer. Com ele, é decisão.</text>
+  </g>
+</svg>

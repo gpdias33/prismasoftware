@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" width="840" height="400" role="img" aria-label="Um único código gerando os aplicativos para iOS e Android, publicados na App Store e na Google Play com atualizações contínuas">
+  <defs>
+    <linearGradient id="pubbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#050f1d"/>
+    </linearGradient>
+    <linearGradient id="pubac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4aa8ff"/><stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+    <marker id="parw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0l10 5-10 5z" fill="#3d6d9e"/>
+    </marker>
+    <style>
+      .t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono','Consolas','Courier New',monospace}
+    </style>
+  </defs>
+
+  <rect width="840" height="400" fill="url(#pubbg)"/>
+  <circle cx="420" cy="200" r="230" fill="#208bf4" opacity=".05"/>
+
+  <!-- ===== um código ===== -->
+  <g transform="translate(48,120)">
+    <rect x="0" y="0" width="212" height="160" rx="14" fill="#0a1626" stroke="#3a6ea5" stroke-width="2"/>
+    <rect x="0" y="0" width="212" height="26" rx="14" fill="#12233a"/>
+    <rect x="0" y="16" width="212" height="10" fill="#12233a"/>
+    <g fill="#31567c"><circle cx="16" cy="13" r="3.5"/><circle cx="27" cy="13" r="3.5"/><circle cx="38" cy="13" r="3.5"/></g>
+    <text class="m" x="56" y="17" fill="#6d89a8" font-size="8.5">app/main.dart</text>
+    <g class="m" font-size="9">
+      <text x="14" y="50" fill="#c678dd">class</text><text x="50" y="50" fill="#61afef">PedidoScreen</text>
+      <text x="22" y="70" fill="#e06c75">build</text><text x="58" y="70" fill="#abb2bf">(context)</text>
+      <text x="30" y="88" fill="#abb2bf">return Scaffold(...)</text>
+      <text x="14" y="116" fill="#98c379">✓ um código-fonte</text>
+      <text x="14" y="134" fill="#98c379">✓ duas lojas</text>
+    </g>
+    <text class="t" x="106" y="192" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="800">Base única</text>
+    <text class="t" x="106" y="211" text-anchor="middle" fill="#8ea7c0" font-size="11">metade do custo de manter</text>
+    <text class="t" x="106" y="227" text-anchor="middle" fill="#8ea7c0" font-size="11">dois apps separados</text>
+  </g>
+
+  <!-- setas -->
+  <g stroke="#3d6d9e" stroke-width="2" fill="none" marker-end="url(#parw)">
+    <path d="M272 176q40 0 56-36"/>
+    <path d="M272 224q40 0 56 36"/>
+  </g>
+
+  <!-- ===== iOS ===== -->
+  <g transform="translate(346,74)">
+    <rect x="0" y="0" width="216" height="110" rx="14" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(24,26)">
+      <path d="M22 6c1.6-2 2.7-4.7 2.4-7.4-2.3.1-5.1 1.5-6.8 3.5-1.5 1.7-2.8 4.5-2.4 7.2 2.6.2 5.2-1.3 6.8-3.3z" fill="#e6eef7" transform="translate(0,6)"/>
+      <path d="M24.3 13c-3.8-.2-7 2.1-8.8 2.1-1.8 0-4.6-2-7.5-2C4.1 13.2.4 16 .4 21.6c0 3.4 1.3 7 2.9 9.3 1.4 2 2.6 3.6 4.3 3.6 1.7 0 2.4-1.1 4.5-1.1s2.7 1.1 4.5 1.1 2.9-1.6 4.2-3.6c1.3-2 1.9-4 1.9-4.1-.1 0-3.7-1.4-3.7-5.6 0-3.5 2.8-5.1 3-5.2-1.6-2.4-4.1-2.7-4.7-3z" fill="#e6eef7"/>
+    </g>
+    <text class="t" x="74" y="42" fill="#ffffff" font-size="14" font-weight="700">App Store</text>
+    <text class="t" x="74" y="61" fill="#8ea7c0" font-size="11">iPhone e iPad</text>
+    <g transform="translate(74,72)">
+      <rect x="0" y="0" width="118" height="22" rx="7" fill="#059652" opacity=".2"/>
+      <circle cx="13" cy="11" r="4" fill="#3ddc97"/>
+      <text class="t" x="24" y="15" fill="#3ddc97" font-size="9.5" font-weight="700">publicado · v2.1</text>
+    </g>
+  </g>
+
+  <!-- ===== Android ===== -->
+  <g transform="translate(346,216)">
+    <rect x="0" y="0" width="216" height="110" rx="14" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(26,30)">
+      <path d="M4 22a18 18 0 0 1 36 0z" fill="none" stroke="#3ddc97" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M8 4l4 7M36 4l-4 7" stroke="#3ddc97" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="15" cy="15" r="2" fill="#3ddc97"/>
+      <circle cx="29" cy="15" r="2" fill="#3ddc97"/>
+    </g>
+    <text class="t" x="80" y="42" fill="#ffffff" font-size="14" font-weight="700">Google Play</text>
+    <text class="t" x="80" y="61" fill="#8ea7c0" font-size="11">todo aparelho Android</text>
+    <g transform="translate(80,72)">
+      <rect x="0" y="0" width="118" height="22" rx="7" fill="#059652" opacity=".2"/>
+      <circle cx="13" cy="11" r="4" fill="#3ddc97"/>
+      <text class="t" x="24" y="15" fill="#3ddc97" font-size="9.5" font-weight="700">publicado · v2.1</text>
+    </g>
+  </g>
+
+  <!-- ===== manutenção ===== -->
+  <g transform="translate(602,120)">
+    <rect x="0" y="0" width="192" height="160" rx="14" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <text class="t" x="20" y="32" fill="#4aa8ff" font-size="11" font-weight="700" letter-spacing="1.2">DEPOIS DA ESTREIA</text>
+
+    <g transform="translate(20,48)">
+      <circle cx="8" cy="8" r="8" fill="#4aa8ff" opacity=".18"/>
+      <path d="M4 8l3 3 5-6" stroke="#4aa8ff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="t" x="26" y="12" fill="#dfeaf5" font-size="11">Publicação nas lojas</text>
+    </g>
+    <g transform="translate(20,78)">
+      <circle cx="8" cy="8" r="8" fill="#4aa8ff" opacity=".18"/>
+      <path d="M4 8l3 3 5-6" stroke="#4aa8ff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="t" x="26" y="12" fill="#dfeaf5" font-size="11">Atualizações periódicas</text>
+    </g>
+    <g transform="translate(20,108)">
+      <circle cx="8" cy="8" r="8" fill="#4aa8ff" opacity=".18"/>
+      <path d="M4 8l3 3 5-6" stroke="#4aa8ff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="t" x="26" y="12" fill="#dfeaf5" font-size="11">Monitoramento de erros</text>
+    </g>
+    <g transform="translate(20,138)">
+      <circle cx="8" cy="8" r="8" fill="#4aa8ff" opacity=".18"/>
+      <path d="M4 8l3 3 5-6" stroke="#4aa8ff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="t" x="26" y="12" fill="#dfeaf5" font-size="11">Novas versões do SO</text>
+    </g>
+  </g>
+  <g stroke="#3d6d9e" stroke-width="2" fill="none" marker-end="url(#parw)">
+    <path d="M574 140q16 0 20 40"/>
+    <path d="M574 260q16 0 20-40"/>
+  </g>
+</svg>

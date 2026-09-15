@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" width="840" height="400" role="img" aria-label="Da ideia rabiscada no papel ao sistema funcionando em produção, passando por prototipagem e desenvolvimento">
+  <defs>
+    <linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#050f1d"/>
+    </linearGradient>
+    <linearGradient id="iac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4aa8ff"/><stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+    <style>
+      .t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+      .m{font-family:'JetBrains Mono','Consolas','Courier New',monospace}
+    </style>
+  </defs>
+
+  <rect width="840" height="400" fill="url(#ibg)"/>
+  <circle cx="420" cy="200" r="240" fill="#208bf4" opacity=".05"/>
+
+  <!-- trilho -->
+  <path d="M110 214h620" stroke="#1e3b5e" stroke-width="3" stroke-linecap="round"/>
+  <path d="M110 214h420" stroke="url(#iac)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ====== 1. guardanapo / ideia ====== -->
+  <g transform="translate(46,60)">
+    <g transform="rotate(-4 64 64)">
+      <rect x="0" y="0" width="130" height="118" rx="6" fill="#f7f4ec" stroke="#ddd6c6" stroke-width="2"/>
+      <g stroke="#5f6b7a" stroke-width="2" fill="none" stroke-linecap="round">
+        <rect x="16" y="18" width="42" height="26" rx="4"/>
+        <rect x="72" y="18" width="42" height="26" rx="4"/>
+        <path d="M58 31h14"/>
+        <rect x="42" y="64" width="46" height="26" rx="4"/>
+        <path d="M37 44l10 20M93 44l-10 20"/>
+      </g>
+      <text class="t" x="65" y="108" text-anchor="middle" fill="#8a8172" font-size="10" font-style="italic">"e se fosse assim?"</text>
+    </g>
+    <circle cx="64" cy="214" r="13" fill="#4aa8ff"/>
+    <circle cx="64" cy="214" r="5" fill="#0b1a2e"/>
+    <text class="m" x="64" y="252" text-anchor="middle" fill="#4aa8ff" font-size="10" letter-spacing="1.5">A IDEIA</text>
+    <text class="t" x="64" y="272" text-anchor="middle" fill="#8ea7c0" font-size="11">sua, do jeito que</text>
+    <text class="t" x="64" y="288" text-anchor="middle" fill="#8ea7c0" font-size="11">o negócio funciona</text>
+  </g>
+
+  <!-- ====== 2. protótipo ====== -->
+  <g transform="translate(236,66)">
+    <rect x="0" y="0" width="140" height="108" rx="8" fill="#101f33" stroke="#2c4a6e" stroke-width="2"/>
+    <rect x="0" y="0" width="140" height="20" rx="8" fill="#16293f"/>
+    <rect x="0" y="12" width="140" height="8" fill="#16293f"/>
+    <g fill="#31567c">
+      <circle cx="12" cy="10" r="3"/><circle cx="22" cy="10" r="3"/><circle cx="32" cy="10" r="3"/>
+    </g>
+    <g stroke="#3a6ea5" stroke-width="1.5" stroke-dasharray="4 4" fill="none">
+      <rect x="12" y="32" width="52" height="30" rx="4"/>
+      <rect x="76" y="32" width="52" height="30" rx="4"/>
+      <rect x="12" y="72" width="116" height="24" rx="4"/>
+    </g>
+    <circle cx="70" cy="214" r="13" fill="#4aa8ff"/>
+    <circle cx="70" cy="214" r="5" fill="#0b1a2e"/>
+    <text class="m" x="70" y="252" text-anchor="middle" fill="#4aa8ff" font-size="10" letter-spacing="1.5">PROTÓTIPO</text>
+    <text class="t" x="70" y="272" text-anchor="middle" fill="#8ea7c0" font-size="11">você navega antes</text>
+    <text class="t" x="70" y="288" text-anchor="middle" fill="#8ea7c0" font-size="11">de existir código</text>
+  </g>
+
+  <!-- ====== 3. código ====== -->
+  <g transform="translate(432,60)">
+    <rect x="0" y="0" width="164" height="120" rx="8" fill="#0a1626" stroke="#2c4a6e" stroke-width="2"/>
+    <rect x="0" y="0" width="164" height="20" rx="8" fill="#12233a"/>
+    <rect x="0" y="12" width="164" height="8" fill="#12233a"/>
+    <text class="m" x="10" y="14" fill="#6d89a8" font-size="8">pedidos/models.py</text>
+    <g class="m" font-size="8.5">
+      <text x="10" y="38" fill="#c678dd">class</text><text x="42" y="38" fill="#61afef">Pedido</text><text x="84" y="38" fill="#abb2bf">(Model):</text>
+      <text x="18" y="54" fill="#e06c75">cliente</text><text x="62" y="54" fill="#abb2bf">= FK(Cliente)</text>
+      <text x="18" y="70" fill="#e06c75">status</text><text x="58" y="70" fill="#abb2bf">= Choice(...)</text>
+      <text x="18" y="86" fill="#e06c75">total</text><text x="52" y="86" fill="#abb2bf">= Decimal(12,2)</text>
+      <text x="10" y="106" fill="#98c379">✓ 128 testes passando</text>
+    </g>
+    <circle cx="82" cy="214" r="13" fill="#4aa8ff"/>
+    <circle cx="82" cy="214" r="5" fill="#0b1a2e"/>
+    <text class="m" x="82" y="252" text-anchor="middle" fill="#4aa8ff" font-size="10" letter-spacing="1.5">ENGENHARIA</text>
+    <text class="t" x="82" y="272" text-anchor="middle" fill="#8ea7c0" font-size="11">código testado,</text>
+    <text class="t" x="82" y="288" text-anchor="middle" fill="#8ea7c0" font-size="11">revisado e versionado</text>
+  </g>
+
+  <!-- ====== 4. em produção ====== -->
+  <g transform="translate(646,56)">
+    <rect x="0" y="0" width="156" height="128" rx="10" fill="#101f33" stroke="#1d5a3e" stroke-width="2"/>
+    <rect x="0" y="0" width="156" height="22" rx="10" fill="#0f2a1f"/>
+    <rect x="0" y="14" width="156" height="8" fill="#0f2a1f"/>
+    <circle cx="14" cy="11" r="4" fill="#3ddc97"/>
+    <text class="m" x="24" y="15" fill="#3ddc97" font-size="8">produção · v1.4.0</text>
+
+    <g transform="translate(14,34)">
+      <rect x="0" y="0" width="60" height="34" rx="6" fill="#152a44"/>
+      <text class="m" x="8" y="14" fill="#7f9bbd" font-size="7">UPTIME</text>
+      <text class="t" x="8" y="28" fill="#3ddc97" font-size="13" font-weight="800">99,9%</text>
+      <rect x="68" y="0" width="60" height="34" rx="6" fill="#152a44"/>
+      <text class="m" x="76" y="14" fill="#7f9bbd" font-size="7">RESPOSTA</text>
+      <text class="t" x="76" y="28" fill="#ffffff" font-size="13" font-weight="800">180ms</text>
+    </g>
+    <g transform="translate(14,78)">
+      <rect x="0" y="0" width="128" height="34" rx="6" fill="#152a44"/>
+      <polyline points="8,26 26,18 44,22 62,10 80,14 98,6 118,9"
+                fill="none" stroke="#3ddc97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <circle cx="78" cy="218" r="15" fill="#3ddc97"/>
+    <path d="M71 218l5 5 9-10" stroke="#0b1a2e" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="m" x="78" y="256" text-anchor="middle" fill="#3ddc97" font-size="10" letter-spacing="1.5">NO AR</text>
+    <text class="t" x="78" y="276" text-anchor="middle" fill="#8ea7c0" font-size="11">time usando,</text>
+    <text class="t" x="78" y="292" text-anchor="middle" fill="#8ea7c0" font-size="11">com suporte nosso</text>
+  </g>
+</svg>

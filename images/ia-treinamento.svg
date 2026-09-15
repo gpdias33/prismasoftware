@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" width="840" height="420" role="img" aria-label="Documentos, catálogo e histórico de atendimento da empresa alimentando a base de conhecimento de um agente de inteligência artificial">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#050f1d"/>
+    </linearGradient>
+    <linearGradient id="tac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4aa8ff"/><stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+    <marker id="tarw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0l10 5-10 5z" fill="#3d6d9e"/>
+    </marker>
+    <style>
+      .t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+    </style>
+  </defs>
+
+  <rect width="840" height="420" fill="url(#tbg)"/>
+  <circle cx="420" cy="210" r="250" fill="#208bf4" opacity=".05"/>
+
+  <!-- ===== fontes de conhecimento ===== -->
+  <text class="t" x="40" y="36" fill="#7f9bbd" font-size="12" font-weight="700" letter-spacing="1.5">O QUE A SUA EMPRESA JÁ SABE</text>
+
+  <g transform="translate(40,58)">
+    <rect x="0" y="0" width="200" height="60" rx="10" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(18,16)">
+      <rect x="0" y="0" width="22" height="28" rx="3" fill="none" stroke="#4aa8ff" stroke-width="2"/>
+      <path d="M5 8h12M5 14h12M5 20h8" stroke="#4aa8ff" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+    <text class="t" x="54" y="26" fill="#ffffff" font-size="13" font-weight="700">Catálogo e preços</text>
+    <text class="t" x="54" y="44" fill="#8ea7c0" font-size="11">produtos, planos, condições</text>
+  </g>
+
+  <g transform="translate(40,132)">
+    <rect x="0" y="0" width="200" height="60" rx="10" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(18,16)">
+      <path d="M2 4h24a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H10l-8 6V6a2 2 0 0 1 2-2z" fill="none" stroke="#4aa8ff" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+    <text class="t" x="58" y="26" fill="#ffffff" font-size="13" font-weight="700">Atendimentos antigos</text>
+    <text class="t" x="58" y="44" fill="#8ea7c0" font-size="11">as perguntas que sempre voltam</text>
+  </g>
+
+  <g transform="translate(40,206)">
+    <rect x="0" y="0" width="200" height="60" rx="10" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(18,16)">
+      <path d="M14 2l12 6v10c0 7-5 12-12 14C7 30 2 25 2 18V8z" fill="none" stroke="#4aa8ff" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+    <text class="t" x="58" y="26" fill="#ffffff" font-size="13" font-weight="700">Políticas e regras</text>
+    <text class="t" x="58" y="44" fill="#8ea7c0" font-size="11">prazo, troca, garantia, região</text>
+  </g>
+
+  <g transform="translate(40,280)">
+    <rect x="0" y="0" width="200" height="60" rx="10" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(18,18)">
+      <circle cx="9" cy="9" r="8" fill="none" stroke="#4aa8ff" stroke-width="2"/>
+      <path d="M9 4v5l3 3" stroke="#4aa8ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+    <text class="t" x="58" y="26" fill="#ffffff" font-size="13" font-weight="700">Sistemas internos</text>
+    <text class="t" x="58" y="44" fill="#8ea7c0" font-size="11">estoque, pedidos, agenda</text>
+  </g>
+
+  <!-- setas convergentes -->
+  <g stroke="#3d6d9e" stroke-width="2" fill="none" marker-end="url(#tarw)">
+    <path d="M248 88q60 0 76 96"/>
+    <path d="M248 162q46 0 70 22"/>
+    <path d="M248 236q46 0 70-22"/>
+    <path d="M248 310q60 0 76-96"/>
+  </g>
+
+  <!-- ===== núcleo: o agente ===== -->
+  <g transform="translate(340,118)">
+    <circle cx="82" cy="82" r="96" fill="#4aa8ff" opacity=".07"/>
+    <circle cx="82" cy="82" r="78" fill="none" stroke="#2c4a6e" stroke-width="1.5" stroke-dasharray="5 6"/>
+    <rect x="18" y="26" width="128" height="112" rx="18" fill="#122744" stroke="#3a6ea5" stroke-width="2"/>
+
+    <!-- rosto do agente -->
+    <circle cx="56" cy="72" r="9" fill="#4aa8ff"/>
+    <circle cx="108" cy="72" r="9" fill="#4aa8ff"/>
+    <path d="M54 100q28 18 56 0" stroke="#4aa8ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M82 26V10" stroke="#3a6ea5" stroke-width="2.5"/>
+    <circle cx="82" cy="6" r="5" fill="#3ddc97"/>
+
+    <text class="t" x="82" y="176" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="800">Agente de IA</text>
+    <text class="t" x="82" y="196" text-anchor="middle" fill="#8ea7c0" font-size="11.5">treinado com o seu conteúdo</text>
+  </g>
+
+  <!-- seta para saída -->
+  <g stroke="#3d6d9e" stroke-width="2" fill="none" marker-end="url(#tarw)">
+    <path d="M524 200h56"/>
+  </g>
+
+  <!-- ===== saída: respostas ===== -->
+  <text class="t" x="600" y="36" fill="#7f9bbd" font-size="12" font-weight="700" letter-spacing="1.5">O QUE ELE RESPONDE</text>
+
+  <g transform="translate(600,62)">
+    <rect x="0" y="0" width="200" height="56" rx="10" fill="#0f2a1f" stroke="#1d5a3e" stroke-width="1.5"/>
+    <path d="M18 28l6 7 12-15" stroke="#3ddc97" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="t" x="48" y="25" fill="#ffffff" font-size="12" font-weight="700">Com a informação certa</text>
+    <text class="t" x="48" y="42" fill="#9ee3c2" font-size="10.5">a mesma que você daria</text>
+  </g>
+
+  <g transform="translate(600,130)">
+    <rect x="0" y="0" width="200" height="56" rx="10" fill="#0f2a1f" stroke="#1d5a3e" stroke-width="1.5"/>
+    <path d="M18 28l6 7 12-15" stroke="#3ddc97" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="t" x="48" y="25" fill="#ffffff" font-size="12" font-weight="700">No tom da sua marca</text>
+    <text class="t" x="48" y="42" fill="#9ee3c2" font-size="10.5">formal ou próximo, você decide</text>
+  </g>
+
+  <g transform="translate(600,198)">
+    <rect x="0" y="0" width="200" height="56" rx="10" fill="#0f2a1f" stroke="#1d5a3e" stroke-width="1.5"/>
+    <path d="M18 28l6 7 12-15" stroke="#3ddc97" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="t" x="48" y="25" fill="#ffffff" font-size="12" font-weight="700">Em segundos, sempre</text>
+    <text class="t" x="48" y="42" fill="#9ee3c2" font-size="10.5">3h da manhã ou feriado</text>
+  </g>
+
+  <g transform="translate(600,266)">
+    <rect x="0" y="0" width="200" height="74" rx="10" fill="#1f1a0d" stroke="#5c4a22" stroke-width="1.5"/>
+    <path d="M26 20v12M26 38v1" stroke="#f5c06a" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="26" cy="28" r="14" fill="none" stroke="#f5c06a" stroke-width="1.6" opacity=".5"/>
+    <text class="t" x="52" y="25" fill="#ffffff" font-size="12" font-weight="700">E quando não sabe:</text>
+    <text class="t" x="52" y="42" fill="#f5c06a" font-size="10.5">não inventa. Chama uma</text>
+    <text class="t" x="52" y="57" fill="#f5c06a" font-size="10.5">pessoa do seu time.</text>
+  </g>
+</svg>

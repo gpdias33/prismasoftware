@@ -212,6 +212,11 @@
 --------------------------------------------------------------*/
 .svc-offer {
   padding: 10px 0 84px;
+  scroll-margin-top: 110px;
+}
+
+#comparativo {
+  scroll-margin-top: 90px;
 }
 
 .offer-card {

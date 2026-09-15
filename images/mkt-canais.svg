@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" width="840" height="420" role="img" aria-label="Frentes do marketing digital: busca no Google, anúncios em redes sociais, conteúdo orgânico e remarketing, todos levando ao site e ao WhatsApp da empresa">
+  <defs>
+    <linearGradient id="kbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#050f1d"/>
+    </linearGradient>
+    <style>.t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+  </defs>
+
+  <rect width="840" height="420" fill="url(#kbg)"/>
+  <circle cx="420" cy="330" r="220" fill="#208bf4" opacity=".05"/>
+
+  <text class="t" x="52" y="42" fill="#7f9bbd" font-size="12" font-weight="700" letter-spacing="1.5">QUATRO FRENTES, UM DESTINO</text>
+
+  <!-- ===== 1. busca ===== -->
+  <g transform="translate(40,64)">
+    <rect x="0" y="0" width="180" height="128" rx="14" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(20,20)">
+      <circle cx="12" cy="12" r="10" fill="none" stroke="#4aa8ff" stroke-width="2.4"/>
+      <path d="M20 20l8 8" stroke="#4aa8ff" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <text class="t" x="20" y="72" fill="#ffffff" font-size="13.5" font-weight="700">Google Ads</text>
+    <text class="t" x="20" y="92" fill="#8ea7c0" font-size="11">aparece para quem já</text>
+    <text class="t" x="20" y="108" fill="#8ea7c0" font-size="11">está procurando agora</text>
+  </g>
+
+  <!-- ===== 2. redes ===== -->
+  <g transform="translate(240,64)">
+    <rect x="0" y="0" width="180" height="128" rx="14" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(20,18)">
+      <rect x="0" y="0" width="26" height="26" rx="8" fill="none" stroke="#e1306c" stroke-width="2.2"/>
+      <circle cx="13" cy="13" r="6.5" fill="none" stroke="#e1306c" stroke-width="2.2"/>
+      <circle cx="21" cy="5.5" r="2" fill="#e1306c"/>
+    </g>
+    <text class="t" x="20" y="72" fill="#ffffff" font-size="13.5" font-weight="700">Meta Ads</text>
+    <text class="t" x="20" y="92" fill="#8ea7c0" font-size="11">apresenta a sua marca</text>
+    <text class="t" x="20" y="108" fill="#8ea7c0" font-size="11">a quem ainda não conhece</text>
+  </g>
+
+  <!-- ===== 3. conteúdo ===== -->
+  <g transform="translate(440,64)">
+    <rect x="0" y="0" width="180" height="128" rx="14" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(20,18)">
+      <rect x="0" y="0" width="24" height="28" rx="3" fill="none" stroke="#f5a623" stroke-width="2.2"/>
+      <path d="M6 8h12M6 15h12M6 22h7" stroke="#f5a623" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <text class="t" x="20" y="72" fill="#ffffff" font-size="13.5" font-weight="700">Conteúdo</text>
+    <text class="t" x="20" y="92" fill="#8ea7c0" font-size="11">posts e artigos que</text>
+    <text class="t" x="20" y="108" fill="#8ea7c0" font-size="11">constroem autoridade</text>
+  </g>
+
+  <!-- ===== 4. remarketing ===== -->
+  <g transform="translate(640,64)">
+    <rect x="0" y="0" width="180" height="128" rx="14" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+    <g transform="translate(20,18)">
+      <path d="M2 14a12 12 0 1 1 4 9" fill="none" stroke="#3ddc97" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M2 6v9h9" fill="none" stroke="#3ddc97" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text class="t" x="20" y="72" fill="#ffffff" font-size="13.5" font-weight="700">Remarketing</text>
+    <text class="t" x="20" y="92" fill="#8ea7c0" font-size="11">traz de volta quem visitou</text>
+    <text class="t" x="20" y="108" fill="#8ea7c0" font-size="11">e não comprou</text>
+  </g>
+
+  <!-- setas convergentes -->
+  <g stroke="#2c4a6e" stroke-width="2" fill="none" stroke-dasharray="6 6">
+    <path d="M130 200q0 40 230 56"/>
+    <path d="M330 200q0 24 50 44"/>
+    <path d="M530 200q0 24 -50 44"/>
+    <path d="M730 200q0 40 -230 56"/>
+  </g>
+
+  <!-- ===== destino ===== -->
+  <g transform="translate(288,258)">
+    <rect x="0" y="0" width="264" height="86" rx="16" fill="#122744" stroke="#3a6ea5" stroke-width="2"/>
+    <text class="t" x="132" y="34" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="800">Seu site e seu WhatsApp</text>
+    <text class="t" x="132" y="56" text-anchor="middle" fill="#8ea7c0" font-size="11.5">com o agente de IA respondendo</text>
+    <text class="t" x="132" y="73" text-anchor="middle" fill="#8ea7c0" font-size="11.5">e o contato registrado</text>
+  </g>
+
+  <!-- medição -->
+  <g transform="translate(288,362)">
+    <rect x="0" y="0" width="264" height="40" rx="12" fill="#0f2a1f" stroke="#1d5a3e"/>
+    <g transform="translate(18,10)">
+      <path d="M0 16l6-7 5 5 8-11" stroke="#3ddc97" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text class="t" x="52" y="25" fill="#9ee3c2" font-size="12" font-weight="600">tudo medido até a venda</text>
+  </g>
+  <g stroke="#1d5a3e" stroke-width="2" fill="none" stroke-dasharray="5 5">
+    <path d="M420 346v14"/>
+  </g>
+</svg>

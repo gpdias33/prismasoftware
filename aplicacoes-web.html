@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Aplicações Web Personalizadas — Prisma Software</title>
+  <meta name="description" content="Você tem a ideia do sistema que a sua empresa precisa. Nós temos a engenharia para construir: Python, Django, Java, PostgreSQL, Celery, Redis e AWS, por um time que já rodou em grandes empresas do cenário nacional.">
+  <meta name="keywords" content="software sob medida, sistema personalizado, desenvolvimento web, Django, Python, Java, PostgreSQL, AWS">
+
+  <!-- Favicons -->
+  <link href="images/favicon.png" rel="icon">
+  <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/aos.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="css/main.css" rel="stylesheet">
+  <!-- Page CSS File -->
+  <link href="css/servico-aplicacoes.css" rel="stylesheet">
+</head>
+
+<body class="page-apps">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="images/logo.webp" alt="Prisma Software">
+        <div class="logo-text">
+          <div class="logo-name"><h1 class="sitename">Prisma Software</h1><span class="dot">.</span></div>
+          <div class="logo-tagline">Marketing Digital e Sistemas</div>
+        </div>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">Sobre</a></li>
+          <li><a href="index.html#services" class="active">Serviços</a></li>
+          <li><a href="index.html#contact">Contato</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#contact">Comece agora</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero -->
+    <section class="app-hero">
+      <div class="container">
+
+        <nav class="app-breadcrumb" aria-label="Você está aqui">
+          <a href="index.html">início</a>
+          <span class="sep">/</span>
+          <a href="index.html#services">serviços</a>
+          <span class="sep">/</span>
+          <span>aplicações web personalizadas</span>
+        </nav>
+
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="app-tag">Software sob medida</div>
+            <h1>Você já sabe o sistema que a sua empresa precisa. <span class="hl">Falta a engenharia.</span></h1>
+            <p class="hero-text">Aquela ideia que você descreve em cinco minutos e ninguém consegue colocar de pé — o controle que hoje vive numa planilha, o processo que depende de alguém lembrar, o relatório que leva dois dias para sair. É exatamente isso que construímos: software feito para o jeito que a <em>sua</em> operação funciona, não para o jeito que um produto de prateleira acha que ela deveria funcionar.</p>
+            <div class="app-actions">
+              <a href="index.html#contact" class="app-btn app-btn-primary">
+                <span>Quero tirar a ideia do papel</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="#stack" class="app-btn app-btn-ghost">
+                <span>ver a stack</span>
+                <i class="bi bi-arrow-down"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="app-terminal">
+              <div class="term-bar">
+                <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+                <span class="term-title">deploy — projeto-cliente</span>
+              </div>
+              <div class="term-body">
+                <div class="ln"><span class="c"># a ideia que você trouxe, virando software</span></div>
+                <div class="ln"><span class="p">$</span> <span class="v">pytest</span> --cov &nbsp;<span class="ok">142 passed · cobertura 91%</span></div>
+                <div class="ln"><span class="p">$</span> <span class="v">docker build</span> -t sistema:1.4.0 . &nbsp;<span class="ok">ok</span></div>
+                <div class="ln"><span class="p">$</span> <span class="v">deploy</span> --env=producao &nbsp;<span class="w">aplicando migrações…</span></div>
+                <div class="ln"><span class="ok">✓</span> <span class="v">no ar em 00:01:47</span> <span class="c">— rollback disponível</span></div>
+                <div class="ln"><span class="p">$</span> <span class="caret"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Da planilha ao sistema -->
+    <section class="app-block alt">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-5">
+            <div data-aos="fade-up">
+              <div class="app-tag">O ponto de partida</div>
+              <h2>Se a operação roda numa planilha, ela já está te custando caro.</h2>
+              <p>Planilha não valida nada. Aceita a data errada, a duplicata, o valor colado no lugar da fórmula. Quando o volume cresce, ninguém mais sabe qual arquivo é o certo, e a decisão passa a ser tomada sobre um número em que o próprio time não confia.</p>
+              <p>Um sistema sob medida resolve isso na raiz: a regra do seu negócio deixa de ser combinada no grupo do WhatsApp e passa a estar escrita no software, aplicada sempre, por todo mundo, com histórico de quem fez o quê.</p>
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="120">
+            <figure class="app-figure m-0">
+              <img src="images/app-planilha-sistema.svg" alt="Comparação entre uma planilha com linhas duplicadas e erros de fórmula e um sistema sob medida com indicadores, gráfico e status de pedidos organizados" loading="lazy">
+              <figcaption>// mesmo processo, antes e depois — o dado deixa de ser opinião</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- O que construímos -->
+    <section class="app-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="app-tag">Escopo</div>
+            <h2>O que construímos quando dizemos "sob medida".</h2>
+            <p>Sistemas que nascem do seu processo — e que se conectam ao que você já usa, em vez de exigir que você abandone tudo e recomece.</p>
+          </div>
+        </div>
+
+        <div class="app-builds" data-aos="fade-up" data-aos-delay="100">
+          <div class="app-build">
+            <span class="idx">01</span>
+            <i class="bi bi-diagram-3 b-ico"></i>
+            <h3>Sistemas de gestão internos</h3>
+            <p>Pedidos, ordens de serviço, estoque, contratos, aprovações. O fluxo da sua empresa virando tela, com as permissões certas para cada perfil.</p>
+          </div>
+          <div class="app-build">
+            <span class="idx">02</span>
+            <i class="bi bi-bar-chart-line b-ico"></i>
+            <h3>Painéis e relatórios</h3>
+            <p>O número que hoje leva dois dias e três pessoas para consolidar, disponível em tempo real e sempre calculado do mesmo jeito.</p>
+          </div>
+          <div class="app-build">
+            <span class="idx">03</span>
+            <i class="bi bi-arrow-repeat b-ico"></i>
+            <h3>Automação de processos</h3>
+            <p>Importações, conferências, envios, rotinas de fechamento. O trabalho repetitivo passa a rodar sozinho, no horário certo, sem esquecer.</p>
+          </div>
+          <div class="app-build">
+            <span class="idx">04</span>
+            <i class="bi bi-plug b-ico"></i>
+            <h3>Integrações via API</h3>
+            <p>Conversa com o ERP, o CRM, a emissora de nota, o gateway de pagamento, a transportadora. Um dado digitado uma vez só.</p>
+          </div>
+          <div class="app-build">
+            <span class="idx">05</span>
+            <i class="bi bi-person-badge b-ico"></i>
+            <h3>Portais de cliente e parceiro</h3>
+            <p>Seu cliente consulta pedido, segunda via e histórico sozinho. Menos ligação para o seu time, mais autonomia para ele.</p>
+          </div>
+          <div class="app-build">
+            <span class="idx">06</span>
+            <i class="bi bi-cpu b-ico"></i>
+            <h3>Motores de cálculo e regras</h3>
+            <p>Precificação, comissionamento, rateio, simulação. Aquela lógica complexa que só existe na cabeça de uma pessoa, agora executável e auditável.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stack -->
+    <section id="stack" class="app-block alt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="app-tag">Tecnologia</div>
+            <h2>Tecnologias de ponta, escolhidas por serem maduras — não por serem novidade.</h2>
+            <p>Usamos as mesmas ferramentas que sustentam sistemas de alto volume no mundo inteiro. Isso significa software moderno e sofisticado, com uma vantagem prática para você: são tecnologias consolidadas, com comunidade enorme e documentação aberta. Você nunca fica refém de um fornecedor.</p>
+          </div>
+        </div>
+
+        <div class="app-stack" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="stack-row">
+            <div class="layer">
+              <span class="num">01</span>
+              <span class="name">Backend e regras de negócio</span>
+            </div>
+            <div class="stack-chips">
+              <span class="chip">Python</span>
+              <span class="chip">Django</span>
+              <span class="chip">Django REST Framework</span>
+              <span class="chip">Java</span>
+              <span class="chip">Spring Boot</span>
+              <span class="chip">FastAPI</span>
+            </div>
+          </div>
+
+          <div class="stack-row">
+            <div class="layer">
+              <span class="num">02</span>
+              <span class="name">Dados e persistência</span>
+            </div>
+            <div class="stack-chips">
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">Redis</span>
+              <span class="chip">SQL Server</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">Elasticsearch</span>
+            </div>
+          </div>
+
+          <div class="stack-row">
+            <div class="layer">
+              <span class="num">03</span>
+              <span class="name">Processamento assíncrono</span>
+            </div>
+            <div class="stack-chips">
+              <span class="chip">Celery</span>
+              <span class="chip">RabbitMQ</span>
+              <span class="chip">Celery Beat</span>
+              <span class="chip">Filas e agendamentos</span>
+            </div>
+          </div>
+
+          <div class="stack-row">
+            <div class="layer">
+              <span class="num">04</span>
+              <span class="name">Interface</span>
+            </div>
+            <div class="stack-chips">
+              <span class="chip">React</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">HTMX</span>
+              <span class="chip">Bootstrap</span>
+              <span class="chip">Design responsivo</span>
+            </div>
+          </div>
+
+          <div class="stack-row">
+            <div class="layer">
+              <span class="num">05</span>
+              <span class="name">Infraestrutura e entrega</span>
+            </div>
+            <div class="stack-chips">
+              <span class="chip">AWS</span>
+              <span class="chip">Docker</span>
+              <span class="chip">Nginx</span>
+              <span class="chip">CI/CD</span>
+              <span class="chip">Git</span>
+              <span class="chip">Monitoramento</span>
+              <span class="chip">Backup automatizado</span>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="stack-note">Nenhuma tecnologia é escolhida por moda. A combinação é definida depois de entender o seu problema: volume de dados, número de usuários, integrações necessárias e orçamento. Um controle interno para dez pessoas não precisa da mesma arquitetura de um portal com dez mil acessos por dia — e cobrar como se precisasse seria desonesto.</p>
+
+        <div class="row mt-5 pt-3">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="120">
+            <figure class="app-figure m-0">
+              <img src="images/app-arquitetura.svg" alt="Diagrama de arquitetura em três camadas: navegador, aplicativo e ERP acessam uma API em Django e Java, que se apoia em PostgreSQL, Redis, Celery e AWS" loading="lazy">
+              <figcaption>// arquitetura típica de um sistema sob medida — cada peça com uma função clara</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilares -->
+    <section class="app-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="app-tag">Como entregamos</div>
+            <h2>Rápido, confiável e seguro não são adjetivos. São práticas.</h2>
+            <p>Qualquer fornecedor promete as três coisas. A diferença está em conseguir explicar <em>como</em> cada uma é obtida.</p>
+          </div>
+        </div>
+
+        <div class="app-pillars">
+          <div class="app-pillar" data-aos="fade-up" data-aos-delay="100">
+            <div class="p-head">
+              <i class="bi bi-lightning-charge-fill"></i>
+              <h3>Rápido</h3>
+            </div>
+            <p>Entregamos em ciclos curtos, com uma versão navegável desde as primeiras semanas. Você corrige o rumo cedo, quando ajustar ainda é barato — em vez de descobrir no fim que o sistema não era bem aquilo.</p>
+            <ul>
+              <li>frameworks maduros: menos código escrito do zero</li>
+              <li>entregas quinzenais, sempre funcionando</li>
+              <li>deploy automatizado, publicação em minutos</li>
+            </ul>
+          </div>
+
+          <div class="app-pillar" data-aos="fade-up" data-aos-delay="150">
+            <div class="p-head">
+              <i class="bi bi-shield-check"></i>
+              <h3>Confiável</h3>
+            </div>
+            <p>Software que quebra a cada atualização não é software: é um passivo. Por isso escrevemos testes automatizados e mantemos o histórico de tudo, para que uma mudança nova nunca derrube o que já funcionava.</p>
+            <ul>
+              <li>testes automatizados em cada entrega</li>
+              <li>código versionado e revisado por outro dev</li>
+              <li>backup diário — e restauração testada</li>
+              <li>monitoramento com alerta antes do usuário reclamar</li>
+            </ul>
+          </div>
+
+          <div class="app-pillar" data-aos="fade-up" data-aos-delay="200">
+            <div class="p-head">
+              <i class="bi bi-lock-fill"></i>
+              <h3>Seguro</h3>
+            </div>
+            <p>Seu sistema guarda dado de cliente, preço e margem. Tratamos segurança como requisito desde a primeira linha, não como algo a resolver depois que der problema.</p>
+            <ul>
+              <li>HTTPS e criptografia em trânsito e em repouso</li>
+              <li>perfis de acesso: cada um vê só o que lhe cabe</li>
+              <li>trilha de auditoria de todas as alterações</li>
+              <li>práticas alinhadas à LGPD</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Equipe -->
+    <section class="app-block alt">
+      <div class="container">
+        <div class="app-team" data-aos="fade-up">
+          <div class="app-tag">Quem constrói</div>
+          <h2>Um time formado em grandes empresas do cenário nacional.</h2>
+          <p>Nossa equipe é composta por profissionais altamente qualificados, com passagem por grandes companhias brasileiras — ambientes onde sistema fora do ar significa prejuízo imediato e onde não existe espaço para improviso. É esse padrão de engenharia que trazemos para projetos de qualquer porte, inclusive o seu.</p>
+          <p>Na prática, isso quer dizer que a sua empresa não vai receber um experimento. Vai receber as mesmas práticas — arquitetura, revisão de código, testes, controle de versão, monitoramento — que sustentam operações críticas, aplicadas na medida certa para a sua realidade.</p>
+
+          <div class="app-credentials">
+            <div class="app-credential">
+              <i class="bi bi-buildings"></i>
+              <h3>Escala de verdade</h3>
+              <p>Quem já lidou com sistemas de alto volume sabe onde as coisas quebram. Esse repertório evita, no seu projeto, os erros que só aparecem quando a operação cresce.</p>
+            </div>
+            <div class="app-credential">
+              <i class="bi bi-people"></i>
+              <h3>Interlocução direta</h3>
+              <p>Você conversa com quem está construindo o sistema, não com um intermediário comercial. Menos ruído entre o que você precisa e o que é entregue.</p>
+            </div>
+            <div class="app-credential">
+              <i class="bi bi-journal-code"></i>
+              <h3>O código é seu</h3>
+              <p>Entregamos o repositório, a documentação e os acessos. Se um dia você quiser levar o projeto para outro time, ele vai embora com você.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Processo -->
+    <section class="app-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="app-tag">Do papel ao ar</div>
+            <h2>Como a sua ideia vira um sistema em produção.</h2>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+            <figure class="app-figure m-0">
+              <img src="images/app-ideia-entrega.svg" alt="Linha do tempo: a ideia rabiscada, o protótipo navegável, o código testado e o sistema em produção com indicadores de disponibilidade" loading="lazy">
+              <figcaption>// da conversa inicial ao sistema no ar, com você acompanhando cada etapa</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="app-flow" data-aos="fade-up" data-aos-delay="150">
+          <div class="app-step">
+            <span class="st-num">ETAPA 01</span>
+            <h3>Entender</h3>
+            <p>Sentamos com quem executa o processo hoje. Antes de propor tela, precisamos entender a regra e a exceção.</p>
+          </div>
+          <div class="app-step">
+            <span class="st-num">ETAPA 02</span>
+            <h3>Desenhar</h3>
+            <p>Escopo, arquitetura e protótipo navegável. Você clica no sistema antes de existir uma linha de código.</p>
+          </div>
+          <div class="app-step">
+            <span class="st-num">ETAPA 03</span>
+            <h3>Construir</h3>
+            <p>Desenvolvimento em ciclos curtos, com entregas testadas e um ambiente para você validar continuamente.</p>
+          </div>
+          <div class="app-step">
+            <span class="st-num">ETAPA 04</span>
+            <h3>Publicar</h3>
+            <p>Infraestrutura, migração dos dados existentes, treinamento do time e acompanhamento de perto na virada.</p>
+          </div>
+          <div class="app-step">
+            <span class="st-num">ETAPA 05</span>
+            <h3>Evoluir</h3>
+            <p>Suporte, correções e novas funções conforme o negócio muda. Sistema bom é aquele que continua acompanhando.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fechamento -->
+    <section class="app-final">
+      <div class="container">
+        <div class="app-final-inner" data-aos="fade-up">
+          <div class="app-tag">Próximo passo</div>
+          <h2>Traga a ideia. Nós dizemos como ela fica de pé.</h2>
+          <p>Não precisa chegar com especificação pronta, nem saber o que é API ou banco de dados. Basta descrever o problema — o que trava hoje, quem sofre com isso, o que você gostaria de ver numa tela. Na primeira conversa já devolvemos uma leitura técnica honesta: o que dá para fazer, por onde começar, quanto tempo leva e quanto custa. Se o melhor caminho for uma solução mais simples que a nossa, dizemos isso também.</p>
+          <div class="app-actions">
+            <a href="index.html#contact" class="app-btn app-btn-primary">
+              <span>Conversar sobre o meu projeto</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+            <a href="criacao-de-sites.html" class="app-btn app-btn-ghost">
+              <span>ver criação de sites</span>
+            </a>
+          </div>
+          <div class="reassure">// primeira conversa sem compromisso e sem custo</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="images/logo.webp" alt="Prisma Software">
+            <span class="logo-text">
+              <span class="sitename">Prisma Software</span>
+              <span class="logo-tagline">Marketing Digital e Sistemas</span>
+            </span>
+          </a>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">Sobre nós</a></li>
+            <li><a href="index.html#services">Serviços</a></li>
+            <li><a href="#">Termos de serviço</a></li>
+            <li><a href="#">Política de privacidade</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Nossos Serviços</h4>
+          <ul>
+            <li><a href="criacao-de-sites.html">Criação de Sites</a></li>
+            <li><a href="aplicacoes-web.html">Aplicações Web</a></li>
+            <li><a href="chatbots-ia.html">Chatbots e Agentes de IA</a></li>
+            <li><a href="apps-moveis.html">Apps Móveis</a></li>
+            <li><a href="marketing-digital.html">Marketing Digital</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contato</h4>
+          <p class="mt-4"><strong>Email:</strong> <span>contato@prismasoftware.com.br</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">PrismaSoftware</strong> <span>Todos os direitos reservados</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <!-- Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
