@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" role="img" aria-label="Painel de campanhas de anúncios com resultados e post de rede social">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#061120"/>
+    </linearGradient>
+    <linearGradient id="ac5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4aa8ff"/><stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+    <linearGradient id="area5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4aa8ff" stop-opacity=".35"/><stop offset="1" stop-color="#4aa8ff" stop-opacity="0"/>
+    </linearGradient>
+    <style>.t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+  </defs>
+  <rect width="800" height="480" fill="url(#bg5)"/>
+  <circle cx="110" cy="90" r="140" fill="#208bf4" opacity=".07"/>
+
+  <!-- campaign dashboard -->
+  <rect x="40" y="52" width="470" height="382" rx="16" fill="#f4f8fc" stroke="#31567c" stroke-width="2"/>
+  <path d="M40 68a16 16 0 0 1 16-16h438a16 16 0 0 1 16 16v40H40z" fill="#0f2740"/>
+  <!-- megaphone icon -->
+  <g transform="translate(70,80)">
+    <path d="M-12-8 8-20v28l-20-10z" fill="#4aa8ff"/>
+    <rect x="-20" y="-8" width="10" height="14" rx="3" fill="#7fc4ff"/>
+    <path d="M12-14a12 14 0 0 1 0 26" stroke="#7fc4ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <text class="t" x="98" y="86" fill="#ffffff" font-size="19" font-weight="700">Campanhas · Google &amp; Meta Ads</text>
+
+  <!-- metrics -->
+  <g>
+    <rect x="62" y="128" width="132" height="80" rx="12" fill="#ffffff" stroke="#dce8f2"/>
+    <text class="t" x="80" y="154" fill="#8399ab" font-size="13">CLIQUES</text>
+    <text class="t" x="80" y="186" fill="#12263c" font-size="26" font-weight="800">12.480</text>
+    <rect x="208" y="128" width="132" height="80" rx="12" fill="#ffffff" stroke="#dce8f2"/>
+    <text class="t" x="226" y="154" fill="#8399ab" font-size="13">CUSTO / LEAD</text>
+    <text class="t" x="226" y="186" fill="#12263c" font-size="26" font-weight="800">R$ 38</text>
+    <rect x="354" y="128" width="134" height="80" rx="12" fill="#ffffff" stroke="#dce8f2"/>
+    <text class="t" x="372" y="154" fill="#8399ab" font-size="13">CONVERSÕES</text>
+    <text class="t" x="372" y="186" fill="#1f8f5f" font-size="26" font-weight="800">+64%</text>
+  </g>
+
+  <!-- chart -->
+  <rect x="62" y="226" width="426" height="190" rx="12" fill="#ffffff" stroke="#dce8f2"/>
+  <text class="t" x="82" y="254" fill="#12263c" font-size="16" font-weight="700">Leads por semana</text>
+  <g stroke="#eef4f9">
+    <path d="M82 300h386M82 342h386M82 384h386"/>
+  </g>
+  <path d="M92 388l68-30 62 16 66-44 62 20 76-52v82H92z" fill="url(#area5)"/>
+  <path d="M92 388l68-30 62 16 66-44 62 20 76-52" fill="none" stroke="#1f6fd0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="426" cy="298" r="7" fill="#1f6fd0" stroke="#ffffff" stroke-width="3"/>
+  <g class="t" font-size="12" fill="#9db0c1">
+    <text x="92" y="406">Sem 1</text><text x="222" y="406">Sem 3</text><text x="348" y="406">Sem 5</text><text x="440" y="406">Sem 7</text>
+  </g>
+
+  <!-- social post card -->
+  <g transform="translate(540,60)">
+    <rect x="0" y="0" width="216" height="248" rx="16" fill="#ffffff" stroke="#dce8f2"/>
+    <circle cx="30" cy="30" r="14" fill="url(#ac5)"/>
+    <text class="t" x="52" y="28" fill="#12263c" font-size="14" font-weight="700">clinica.vitta</text>
+    <text class="t" x="52" y="44" fill="#9db0c1" font-size="12">Patrocinado</text>
+    <rect x="16" y="58" width="184" height="118" rx="10" fill="#dbe7f0"/>
+    <circle cx="66" cy="100" r="16" fill="#ffd166"/>
+    <path d="M16 176l52-46 38 28 34-30 60 48z" fill="#8fb6dd"/>
+    <text class="t" x="16" y="204" fill="#12263c" font-size="14" font-weight="600">Agende sua avaliação</text>
+    <g fill="#e04f4f">
+      <path d="M22 224a8 8 0 0 1 14-5 8 8 0 0 1 14 5c0 8-14 14-14 14s-14-6-14-14z"/>
+    </g>
+    <text class="t" x="58" y="234" fill="#7c93a7" font-size="13">1.842</text>
+    <path d="M104 220h20v14h-8l-6 6v-6h-6z" fill="#7c93a7"/>
+    <text class="t" x="132" y="234" fill="#7c93a7" font-size="13">213</text>
+  </g>
+
+  <!-- calendar / content plan -->
+  <g transform="translate(540,326)">
+    <rect x="0" y="0" width="216" height="108" rx="14" fill="#12324f"/>
+    <text class="t" x="18" y="28" fill="#ffffff" font-size="14" font-weight="700">Calendário de conteúdo</text>
+    <g>
+      <rect x="18" y="42" width="26" height="26" rx="6" fill="#1f6fd0"/>
+      <rect x="52" y="42" width="26" height="26" rx="6" fill="#1f6fd0"/>
+      <rect x="86" y="42" width="26" height="26" rx="6" fill="#2a4a6b"/>
+      <rect x="120" y="42" width="26" height="26" rx="6" fill="#1f6fd0"/>
+      <rect x="154" y="42" width="26" height="26" rx="6" fill="#2a4a6b"/>
+      <rect x="18" y="76" width="26" height="26" rx="6" fill="#2a4a6b"/>
+      <rect x="52" y="76" width="26" height="26" rx="6" fill="#1f6fd0"/>
+      <rect x="86" y="76" width="26" height="26" rx="6" fill="#1f6fd0"/>
+      <rect x="120" y="76" width="26" height="26" rx="6" fill="#2a4a6b"/>
+      <rect x="154" y="76" width="26" height="26" rx="6" fill="#1f6fd0"/>
+    </g>
+  </g>
+</svg>

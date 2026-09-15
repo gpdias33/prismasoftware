@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" role="img" aria-label="Site institucional aberto em um notebook">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#061120"/>
+    </linearGradient>
+    <linearGradient id="ac2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4aa8ff"/><stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d3f63"/><stop offset="1" stop-color="#122a44"/>
+    </linearGradient>
+    <style>.t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+  </defs>
+  <rect width="800" height="480" fill="url(#bg2)"/>
+  <circle cx="120" cy="80" r="140" fill="#208bf4" opacity=".08"/>
+
+  <!-- laptop screen -->
+  <rect x="86" y="40" width="628" height="356" rx="16" fill="#0d1c2e" stroke="#31567c" stroke-width="3"/>
+  <rect x="102" y="56" width="596" height="324" rx="8" fill="#ffffff"/>
+
+  <!-- site navbar -->
+  <rect x="102" y="56" width="596" height="52" fill="#0f2740"/>
+  <circle cx="136" cy="82" r="12" fill="url(#ac2)"/>
+  <text class="t" x="156" y="89" fill="#ffffff" font-size="19" font-weight="700">Construtora Vega</text>
+  <g class="t" font-size="16" fill="#c3d8ec">
+    <text x="392" y="88">Início</text>
+    <text x="452" y="88">Serviços</text>
+    <text x="528" y="88">Obras</text>
+    <text x="588" y="88">Contato</text>
+  </g>
+  <rect x="640" y="68" width="44" height="28" rx="8" fill="url(#ac2)"/>
+
+  <!-- hero -->
+  <text class="t" x="134" y="168" fill="#12263c" font-size="30" font-weight="800">Projetos que saem</text>
+  <text class="t" x="134" y="202" fill="#12263c" font-size="30" font-weight="800">do papel.</text>
+  <text class="t" x="134" y="234" fill="#6b8299" font-size="16">Engenharia e execução de obras</text>
+  <text class="t" x="134" y="256" fill="#6b8299" font-size="16">comerciais em todo o Nordeste.</text>
+  <rect x="134" y="276" width="146" height="42" rx="10" fill="url(#ac2)"/>
+  <text class="t" x="207" y="303" fill="#ffffff" font-size="17" font-weight="600" text-anchor="middle">Peça um orçamento</text>
+  <rect x="292" y="276" width="118" height="42" rx="10" fill="none" stroke="#1f6fd0" stroke-width="2"/>
+  <text class="t" x="351" y="303" fill="#1f6fd0" font-size="17" font-weight="600" text-anchor="middle">Ver obras</text>
+
+  <!-- hero photo -->
+  <g>
+    <rect x="442" y="132" width="240" height="186" rx="10" fill="url(#sky2)"/>
+    <circle cx="638" cy="172" r="18" fill="#ffd166" opacity=".8"/>
+    <!-- buildings -->
+    <rect x="470" y="216" width="46" height="102" fill="#2f6ea8"/>
+    <rect x="524" y="184" width="54" height="134" fill="#3c86c6"/>
+    <rect x="586" y="232" width="42" height="86" fill="#2a608f"/>
+    <rect x="636" y="250" width="34" height="68" fill="#3c86c6" opacity=".8"/>
+    <g fill="#dbeaf8" opacity=".55">
+      <rect x="480" y="230" width="10" height="12"/><rect x="498" y="230" width="10" height="12"/>
+      <rect x="480" y="254" width="10" height="12"/><rect x="498" y="254" width="10" height="12"/>
+      <rect x="536" y="200" width="12" height="14"/><rect x="556" y="200" width="12" height="14"/>
+      <rect x="536" y="228" width="12" height="14"/><rect x="556" y="228" width="12" height="14"/>
+      <rect x="596" y="248" width="10" height="12"/><rect x="612" y="248" width="10" height="12"/>
+    </g>
+    <!-- crane -->
+    <path d="M452 318V150h6v168z" fill="#e0e6ec"/>
+    <path d="M430 152h96v7h-96z" fill="#e0e6ec"/>
+    <path d="M500 159v22" stroke="#e0e6ec" stroke-width="3"/>
+    <rect x="492" y="181" width="16" height="12" fill="#ffd166"/>
+  </g>
+
+  <!-- footer strip cards -->
+  <g>
+    <rect x="134" y="336" width="164" height="30" rx="8" fill="#eef4fa"/>
+    <rect x="310" y="336" width="164" height="30" rx="8" fill="#eef4fa"/>
+    <rect x="486" y="336" width="196" height="30" rx="8" fill="#eef4fa"/>
+    <g fill="#9fb4c8">
+      <rect x="150" y="348" width="86" height="7" rx="3.5"/>
+      <rect x="326" y="348" width="96" height="7" rx="3.5"/>
+      <rect x="502" y="348" width="110" height="7" rx="3.5"/>
+    </g>
+  </g>
+
+  <!-- laptop base -->
+  <path d="M50 396h700l30 34H20z" fill="#31567c"/>
+  <rect x="352" y="404" width="96" height="8" rx="4" fill="#0d1c2e" opacity=".6"/>
+
+  <!-- mobile version -->
+  <g transform="translate(636,246)">
+    <rect x="0" y="0" width="120" height="196" rx="18" fill="#0d1c2e" stroke="#31567c" stroke-width="3"/>
+    <rect x="8" y="8" width="104" height="180" rx="12" fill="#ffffff"/>
+    <rect x="8" y="8" width="104" height="26" rx="12" fill="#0f2740"/>
+    <rect x="8" y="8" width="104" height="14" fill="#0f2740"/>
+    <circle cx="24" cy="21" r="6" fill="#4aa8ff"/>
+    <rect x="20" y="46" width="66" height="9" rx="4" fill="#12263c"/>
+    <rect x="20" y="62" width="46" height="9" rx="4" fill="#12263c"/>
+    <rect x="20" y="82" width="80" height="6" rx="3" fill="#adbfd0"/>
+    <rect x="20" y="94" width="64" height="6" rx="3" fill="#adbfd0"/>
+    <rect x="20" y="112" width="70" height="24" rx="7" fill="url(#ac2)"/>
+    <rect x="20" y="148" width="80" height="30" rx="7" fill="#e3edf6"/>
+  </g>
+</svg>

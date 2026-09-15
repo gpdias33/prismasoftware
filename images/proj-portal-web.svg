@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" role="img" aria-label="Sistema web de gestão de apólices com menu, indicadores e tabela de registros">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#061120"/>
+    </linearGradient>
+    <linearGradient id="ac3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4aa8ff"/><stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+    <style>.t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+  </defs>
+  <rect width="800" height="480" fill="url(#bg3)"/>
+  <circle cx="720" cy="420" r="150" fill="#208bf4" opacity=".07"/>
+
+  <!-- app window -->
+  <rect x="48" y="34" width="704" height="412" rx="18" fill="#f4f8fc" stroke="#31567c" stroke-width="2"/>
+  <path d="M48 52a18 18 0 0 1 18-18h668a18 18 0 0 1 18 18v30H48z" fill="#0f2740"/>
+  <circle cx="74" cy="58" r="6" fill="#ff6b6b"/><circle cx="94" cy="58" r="6" fill="#ffd166"/><circle cx="114" cy="58" r="6" fill="#39d98a"/>
+  <rect x="152" y="46" width="260" height="24" rx="12" fill="#0b1a2e"/>
+  <text class="t" x="168" y="63" fill="#7fa6c9" font-size="14">portal.seguradoravega.com.br</text>
+
+  <!-- sidebar -->
+  <rect x="48" y="82" width="164" height="364" fill="#12324f"/>
+  <circle cx="80" cy="116" r="13" fill="url(#ac3)"/>
+  <text class="t" x="100" y="122" fill="#ffffff" font-size="17" font-weight="700">Vega</text>
+  <g class="t" font-size="15">
+    <rect x="60" y="150" width="140" height="30" rx="8" fill="#1f6fd0"/>
+    <text x="80" y="170" fill="#ffffff">Apólices</text>
+    <text x="80" y="206" fill="#9dbdd8">Clientes</text>
+    <text x="80" y="240" fill="#9dbdd8">Sinistros</text>
+    <text x="80" y="274" fill="#9dbdd8">Relatórios</text>
+    <text x="80" y="308" fill="#9dbdd8">Financeiro</text>
+  </g>
+  <g fill="#4aa8ff" opacity=".85">
+    <rect x="62" y="158" width="10" height="14" rx="2"/>
+  </g>
+
+  <!-- page title -->
+  <text class="t" x="240" y="122" fill="#12263c" font-size="24" font-weight="800">Apólices ativas</text>
+  <rect x="596" y="100" width="128" height="32" rx="8" fill="url(#ac3)"/>
+  <text class="t" x="660" y="121" fill="#ffffff" font-size="15" font-weight="600" text-anchor="middle">+ Nova apólice</text>
+
+  <!-- KPI cards -->
+  <g>
+    <rect x="240" y="146" width="150" height="76" rx="12" fill="#ffffff" stroke="#dce8f2"/>
+    <text class="t" x="260" y="172" fill="#8399ab" font-size="14">Prêmio emitido</text>
+    <text class="t" x="260" y="202" fill="#12263c" font-size="24" font-weight="800">R$ 1,24 M</text>
+    <rect x="402" y="146" width="150" height="76" rx="12" fill="#ffffff" stroke="#dce8f2"/>
+    <text class="t" x="422" y="172" fill="#8399ab" font-size="14">Apólices</text>
+    <text class="t" x="422" y="202" fill="#12263c" font-size="24" font-weight="800">3.812</text>
+    <rect x="564" y="146" width="160" height="76" rx="12" fill="#ffffff" stroke="#dce8f2"/>
+    <text class="t" x="584" y="172" fill="#8399ab" font-size="14">Renovação</text>
+    <text class="t" x="584" y="202" fill="#1f8f5f" font-size="24" font-weight="800">92%</text>
+    <path d="M686 196l12-14 12 14z" fill="#1f8f5f"/>
+  </g>
+
+  <!-- table -->
+  <rect x="240" y="238" width="484" height="186" rx="12" fill="#ffffff" stroke="#dce8f2"/>
+  <rect x="240" y="238" width="484" height="34" rx="12" fill="#eaf2f9"/>
+  <rect x="240" y="258" width="484" height="14" fill="#eaf2f9"/>
+  <g class="t" font-size="13" fill="#7f95a8">
+    <text x="262" y="260">APÓLICE</text>
+    <text x="378" y="260">CLIENTE</text>
+    <text x="536" y="260">VIGÊNCIA</text>
+    <text x="648" y="260">STATUS</text>
+  </g>
+  <g class="t" font-size="14" fill="#2b4157">
+    <text x="262" y="298">#48210</text><text x="378" y="298">Marina Alves</text><text x="536" y="298">12/2026</text>
+    <text x="262" y="336">#48197</text><text x="378" y="336">Log Transportes</text><text x="536" y="336">03/2026</text>
+    <text x="262" y="374">#48155</text><text x="378" y="374">Clínica Norte</text><text x="536" y="374">08/2026</text>
+    <text x="262" y="412">#48120</text><text x="378" y="412">R. Menezes ME</text><text x="536" y="412">01/2026</text>
+  </g>
+  <g class="t" font-size="12" font-weight="600">
+    <rect x="640" y="284" width="66" height="22" rx="11" fill="#dff5e9"/><text x="673" y="299" fill="#1f8f5f" text-anchor="middle">Ativa</text>
+    <rect x="640" y="322" width="66" height="22" rx="11" fill="#dff5e9"/><text x="673" y="337" fill="#1f8f5f" text-anchor="middle">Ativa</text>
+    <rect x="640" y="360" width="66" height="22" rx="11" fill="#fff0d6"/><text x="673" y="375" fill="#b3781a" text-anchor="middle">Análise</text>
+    <rect x="640" y="398" width="66" height="22" rx="11" fill="#dff5e9"/><text x="673" y="413" fill="#1f8f5f" text-anchor="middle">Ativa</text>
+  </g>
+  <g stroke="#eef4f9">
+    <path d="M240 310h484M240 348h484M240 386h484"/>
+  </g>
+</svg>
