@@ -180,6 +180,7 @@ h6 {
 .header .logo .logo-name {
   display: flex;
   align-items: baseline;
+  white-space: nowrap;
 }
 
 .header .logo h1 {
@@ -188,14 +189,8 @@ h6 {
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--heading-color);
+  white-space: nowrap;
   transition: font-size 0.4s ease;
-}
-
-.header .logo .dot {
-  font-size: 38px;
-  padding-left: 2px;
-  color: var(--accent-color);
-  line-height: 1;
 }
 
 .header .logo .logo-tagline {
@@ -223,9 +218,6 @@ h6 {
   font-size: 28px;
 }
 
-.scrolled .header .logo .dot {
-  font-size: 31px;
-}
 
 .scrolled .header .logo .logo-tagline {
   font-size: 11px;
@@ -241,9 +233,6 @@ h6 {
     font-size: 26px;
   }
 
-  .header .logo .dot {
-    font-size: 29px;
-  }
 
   .header .logo .logo-tagline {
     font-size: 10.5px;
@@ -264,9 +253,6 @@ h6 {
     font-size: 21px;
   }
 
-  .header .logo .dot {
-    font-size: 24px;
-  }
 
   .header .logo .logo-tagline {
     font-size: 9px;
