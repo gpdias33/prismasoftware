@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Prisma Software">
+  <defs>
+    <linearGradient id="fc-table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d8f1ff"/>
+    </linearGradient>
+    <linearGradient id="fc-left" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bfe6ff"/><stop offset="1" stop-color="#7fc8f2"/>
+    </linearGradient>
+    <linearGradient id="fc-right" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fd0f5"/><stop offset="1" stop-color="#4a9fdd"/>
+    </linearGradient>
+    <linearGradient id="fc-pav-l" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#7fd4ea"/><stop offset="1" stop-color="#3f9fd4"/>
+    </linearGradient>
+    <linearGradient id="fc-pav-c" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6f7ff"/><stop offset="1" stop-color="#7cc4ef"/>
+    </linearGradient>
+    <linearGradient id="fc-pav-r" x1="1" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#5aa8e6"/><stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- coroa -->
+  <path d="M6.4 26.9 L17.9 16.0 L24.3 26.9 Z" fill="url(#fc-left)"/>
+  <path d="M17.9 16.0 L46.1 16.0 L39.7 26.9 L24.3 26.9 Z" fill="url(#fc-table)"/>
+  <path d="M46.1 16.0 L57.6 26.9 L39.7 26.9 Z" fill="url(#fc-right)"/>
+
+  <!-- pavilhão -->
+  <path d="M6.4 26.9 L24.3 26.9 L32 56.3 Z" fill="url(#fc-pav-l)"/>
+  <path d="M24.3 26.9 L39.7 26.9 L32 56.3 Z" fill="url(#fc-pav-c)"/>
+  <path d="M39.7 26.9 L57.6 26.9 L32 56.3 Z" fill="url(#fc-pav-r)"/>
+
+  <!-- arestas -->
+  <g stroke="#ffffff" stroke-opacity=".55" stroke-width="1" fill="none" stroke-linejoin="round">
+    <path d="M24.3 26.9 L17.9 16.0 M39.7 26.9 L46.1 16.0 M24.3 26.9 L32 56.3 M39.7 26.9 L32 56.3"/>
+    <path d="M6.4 26.9 L57.6 26.9"/>
+  </g>
+  <path d="M17.9 16.0 L46.1 16.0 L57.6 26.9 L32 56.3 L6.4 26.9 Z"
+        fill="none" stroke="#ffffff" stroke-opacity=".8" stroke-width="1.4" stroke-linejoin="round"/>
+</svg>
