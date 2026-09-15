@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440" role="img" aria-label="O mesmo site adaptado a celular, tablet e notebook, com indicadores de velocidade de carregamento">
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#050f1d"/>
+    </linearGradient>
+    <linearGradient id="mac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4aa8ff"/><stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+    <style>.t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+  </defs>
+
+  <rect width="820" height="440" fill="url(#mbg)"/>
+  <circle cx="410" cy="200" r="220" fill="#208bf4" opacity=".06"/>
+
+  <!-- notebook -->
+  <g transform="translate(212,44)">
+    <rect x="0" y="0" width="420" height="256" rx="12" fill="#0d1c2e" stroke="#31567c" stroke-width="3"/>
+    <rect x="12" y="12" width="396" height="232" rx="6" fill="#ffffff"/>
+    <rect x="12" y="12" width="396" height="38" fill="#0f2740"/>
+    <circle cx="36" cy="31" r="10" fill="url(#mac)"/>
+    <text class="t" x="54" y="36" fill="#ffffff" font-size="13" font-weight="700">Sua Empresa</text>
+    <g class="t" font-size="11" fill="#c3d8ec">
+      <text x="250" y="35">Serviços</text><text x="304" y="35">Portfólio</text><text x="362" y="35">Contato</text>
+    </g>
+    <text class="t" x="40" y="96" fill="#12263c" font-size="24" font-weight="800">O seu trabalho,</text>
+    <text class="t" x="40" y="124" fill="#12263c" font-size="24" font-weight="800">bem apresentado.</text>
+    <rect x="40" y="144" width="132" height="36" rx="9" fill="url(#mac)"/>
+    <text class="t" x="106" y="167" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">Falar com a gente</text>
+    <g fill="#eef4fa">
+      <rect x="230" y="76" width="160" height="104" rx="10"/>
+    </g>
+    <g fill="#c6d7e6">
+      <rect x="246" y="94" width="128" height="8" rx="4"/>
+      <rect x="246" y="112" width="100" height="8" rx="4"/>
+      <rect x="246" y="130" width="116" height="8" rx="4"/>
+    </g>
+    <g fill="#f3f7fb">
+      <rect x="40" y="200" width="110" height="32" rx="8"/>
+      <rect x="164" y="200" width="110" height="32" rx="8"/>
+      <rect x="288" y="200" width="102" height="32" rx="8"/>
+    </g>
+    <path d="M-28 256h476l24 26H-52z" fill="#31567c"/>
+  </g>
+
+  <!-- tablet -->
+  <g transform="translate(96,128)">
+    <rect x="0" y="0" width="152" height="204" rx="14" fill="#0d1c2e" stroke="#31567c" stroke-width="3"/>
+    <rect x="10" y="10" width="132" height="184" rx="8" fill="#ffffff"/>
+    <rect x="10" y="10" width="132" height="28" fill="#0f2740"/>
+    <circle cx="28" cy="24" r="7" fill="#4aa8ff"/>
+    <rect x="24" y="52" width="86" height="11" rx="5" fill="#12263c"/>
+    <rect x="24" y="70" width="62" height="11" rx="5" fill="#12263c"/>
+    <rect x="24" y="94" width="104" height="7" rx="3.5" fill="#b9c9d8"/>
+    <rect x="24" y="108" width="84" height="7" rx="3.5" fill="#b9c9d8"/>
+    <rect x="24" y="128" width="88" height="26" rx="8" fill="url(#mac)"/>
+    <rect x="24" y="166" width="104" height="20" rx="6" fill="#eef4fa"/>
+  </g>
+
+  <!-- celular -->
+  <g transform="translate(608,168)">
+    <rect x="0" y="0" width="122" height="216" rx="20" fill="#0d1c2e" stroke="#31567c" stroke-width="3"/>
+    <rect x="9" y="9" width="104" height="198" rx="14" fill="#ffffff"/>
+    <rect x="9" y="9" width="104" height="26" rx="14" fill="#0f2740"/>
+    <rect x="9" y="22" width="104" height="13" fill="#0f2740"/>
+    <circle cx="26" cy="22" r="7" fill="#4aa8ff"/>
+    <rect x="22" y="48" width="70" height="10" rx="5" fill="#12263c"/>
+    <rect x="22" y="64" width="50" height="10" rx="5" fill="#12263c"/>
+    <rect x="22" y="86" width="78" height="6" rx="3" fill="#b9c9d8"/>
+    <rect x="22" y="98" width="64" height="6" rx="3" fill="#b9c9d8"/>
+    <rect x="22" y="116" width="78" height="26" rx="8" fill="url(#mac)"/>
+    <text class="t" x="61" y="133" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700">Orçamento</text>
+    <rect x="22" y="152" width="78" height="20" rx="6" fill="#e3f6ec"/>
+    <rect x="22" y="178" width="78" height="20" rx="6" fill="#eef4fa"/>
+  </g>
+
+  <!-- selos de performance -->
+  <g class="t">
+    <g transform="translate(60,368)">
+      <rect x="0" y="0" width="210" height="50" rx="12" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+      <circle cx="30" cy="25" r="15" fill="#059652" opacity=".18"/>
+      <path d="M30 16v10l7 4" stroke="#3ddc97" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <text x="56" y="22" fill="#ffffff" font-size="13" font-weight="700">Abre em menos de 2s</text>
+      <text x="56" y="39" fill="#8ea7c0" font-size="11">no 4G, fora do Wi-Fi</text>
+    </g>
+    <g transform="translate(300,368)">
+      <rect x="0" y="0" width="214" height="50" rx="12" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+      <circle cx="30" cy="25" r="15" fill="#208bf4" opacity=".18"/>
+      <path d="M23 25l5 6 10-12" stroke="#4aa8ff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="56" y="22" fill="#ffffff" font-size="13" font-weight="700">Legível em qualquer tela</text>
+      <text x="56" y="39" fill="#8ea7c0" font-size="11">a maioria dos acessos vem do celular</text>
+    </g>
+    <g transform="translate(544,368)">
+      <rect x="0" y="0" width="216" height="50" rx="12" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+      <circle cx="30" cy="25" r="15" fill="#f5a623" opacity=".18"/>
+      <path d="M30 15l3.6 7.4 8.1 1.2-5.9 5.7 1.4 8.1L30 33.6l-7.2 3.8 1.4-8.1-5.9-5.7 8.1-1.2z" fill="#f5a623"/>
+      <text x="56" y="22" fill="#ffffff" font-size="13" font-weight="700">Encontrável no Google</text>
+      <text x="56" y="39" fill="#8ea7c0" font-size="11">SEO técnico desde a primeira linha</text>
+    </g>
+  </g>
+</svg>

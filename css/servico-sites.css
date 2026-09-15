@@ -1,0 +1,862 @@
+/**
+* Página: Criação e Redesign de Sites
+* Estilos exclusivos desta página. Herda as variáveis de cor e fonte do main.css.
+*/
+
+.page-sites {
+  --rule-color: color-mix(in srgb, var(--default-color), transparent 88%);
+  --muted-color: color-mix(in srgb, var(--default-color), transparent 32%);
+}
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+.svc-hero {
+  position: relative;
+  padding: 100px 0 80px;
+  overflow: hidden;
+}
+
+.svc-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(60% 55% at 78% 12%, color-mix(in srgb, var(--accent-color), transparent 86%), transparent 70%),
+    radial-gradient(50% 45% at 8% 88%, color-mix(in srgb, var(--accent-color), transparent 92%), transparent 70%);
+  pointer-events: none;
+}
+
+.svc-hero > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.svc-breadcrumb {
+  font-size: 14px;
+  color: var(--muted-color);
+  margin-bottom: 28px;
+  letter-spacing: 0.01em;
+}
+
+.svc-breadcrumb a {
+  color: var(--muted-color);
+}
+
+.svc-breadcrumb a:hover {
+  color: var(--accent-color);
+}
+
+.svc-breadcrumb .sep {
+  margin: 0 10px;
+  opacity: 0.5;
+}
+
+.svc-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent-color), transparent 88%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 72%);
+  color: var(--accent-color);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.svc-hero h1 {
+  font-size: clamp(2.25rem, 4.6vw, 3.75rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+}
+
+.svc-hero h1 em {
+  font-style: normal;
+  color: var(--accent-color);
+  position: relative;
+  white-space: nowrap;
+}
+
+.svc-hero h1 em::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.06em;
+  height: 0.12em;
+  background: color-mix(in srgb, var(--accent-color), transparent 65%);
+  border-radius: 2px;
+}
+
+.svc-hero .hero-text {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: var(--muted-color);
+  max-width: 34em;
+  margin-bottom: 36px;
+}
+
+.svc-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+.svc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.svc-btn i {
+  transition: transform 0.25s ease;
+}
+
+.svc-btn-primary {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--accent-color), transparent 70%);
+}
+
+.svc-btn-primary:hover {
+  color: var(--contrast-color);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px color-mix(in srgb, var(--accent-color), transparent 58%);
+}
+
+.svc-btn-primary:hover i {
+  transform: translateX(4px);
+}
+
+.svc-btn-ghost {
+  border-color: var(--rule-color);
+  color: var(--default-color);
+}
+
+.svc-btn-ghost:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.svc-hero-figure {
+  position: relative;
+}
+
+.svc-hero-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--rule-color);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+/*--------------------------------------------------------------
+# Gancho da oferta no hero
+--------------------------------------------------------------*/
+.hero-offer-hook {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 28px;
+  padding: 11px 20px;
+  border-radius: 999px;
+  font-size: 14.5px;
+  color: #ffd98a;
+  background: color-mix(in srgb, #f5a623, transparent 90%);
+  border: 1px dashed color-mix(in srgb, #f5a623, transparent 60%);
+  transition: all 0.25s ease;
+}
+
+.hero-offer-hook:hover {
+  color: #ffe6b3;
+  background: color-mix(in srgb, #f5a623, transparent 82%);
+  border-color: color-mix(in srgb, #f5a623, transparent 40%);
+  transform: translateY(-2px);
+}
+
+.hero-offer-hook strong {
+  font-weight: 700;
+}
+
+.hero-offer-hook .bi-gift-fill {
+  font-size: 16px;
+}
+
+.hero-offer-hook .bi-arrow-down-short {
+  font-size: 19px;
+  animation: offer-bounce 1.8s ease-in-out infinite;
+}
+
+@keyframes offer-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(4px); }
+}
+
+/*--------------------------------------------------------------
+# Oferta especial
+--------------------------------------------------------------*/
+.svc-offer {
+  padding: 10px 0 84px;
+}
+
+.offer-card {
+  position: relative;
+  border-radius: 22px;
+  padding: 52px 56px;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb, var(--accent-color), #000 22%) 0%,
+      color-mix(in srgb, var(--accent-color), #4f46e5 34%) 58%,
+      color-mix(in srgb, #4f46e5, #000 28%) 100%);
+  box-shadow:
+    0 28px 70px color-mix(in srgb, var(--accent-color), transparent 78%),
+    inset 0 1px 0 rgba(255, 255, 255, 0.16);
+}
+
+@media (max-width: 767px) {
+  .offer-card {
+    padding: 44px 26px 38px;
+    border-radius: 18px;
+  }
+}
+
+/* textura de pontos + brilho diagonal */
+.offer-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.22) 1px, transparent 1px);
+  background-size: 22px 22px;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.offer-card::after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: -30%;
+  width: 45%;
+  height: 220%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.16), transparent);
+  transform: rotate(18deg);
+  animation: offer-shine 6.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes offer-shine {
+  0%, 62% { left: -40%; }
+  100% { left: 125%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .offer-card::after,
+  .hero-offer-hook .bi-arrow-down-short {
+    animation: none;
+  }
+}
+
+.offer-flag {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: color-mix(in srgb, var(--accent-color), #000 25%);
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+}
+
+.offer-flag i {
+  font-size: 15px;
+  color: #f5a623;
+}
+
+.offer-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .offer-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+}
+
+/* selo circular com o "12 meses" */
+.offer-figure {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+}
+
+@media (max-width: 991px) {
+  .offer-figure {
+    min-height: 180px;
+  }
+}
+
+.offer-number {
+  position: relative;
+  z-index: 2;
+  width: 178px;
+  height: 178px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.07);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2px);
+  box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.1);
+}
+
+.offer-number .n {
+  font-family: var(--heading-font);
+  font-size: 5.25rem;
+  font-weight: 800;
+  line-height: 0.88;
+  color: #ffffff;
+  letter-spacing: -0.05em;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.offer-number .u {
+  font-family: var(--heading-font);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.88);
+  margin-top: 8px;
+  padding-left: 0.34em;
+}
+
+.offer-ring {
+  position: absolute;
+  width: 214px;
+  height: 214px;
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.4);
+  animation: offer-spin 26s linear infinite;
+}
+
+@keyframes offer-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .offer-ring {
+    animation: none;
+  }
+}
+
+.offer-body h2 {
+  font-size: clamp(1.6rem, 2.9vw, 2.35rem);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.offer-body h2 em {
+  font-style: normal;
+  color: #ffe08a;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 224, 138, 0.45);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+.offer-body > p {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 26px;
+  max-width: 46em;
+}
+
+.offer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px;
+  display: grid;
+  gap: 12px;
+}
+
+.offer-list li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 15.25px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.offer-list li i {
+  flex-shrink: 0;
+  font-size: 18px;
+  margin-top: 1px;
+  color: #9ff5c9;
+}
+
+.offer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 24px;
+}
+
+.svc-btn-offer {
+  background: #ffffff;
+  color: color-mix(in srgb, var(--accent-color), #000 20%);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.26);
+}
+
+.svc-btn-offer:hover {
+  color: color-mix(in srgb, var(--accent-color), #000 20%);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.34);
+}
+
+.svc-btn-offer:hover i {
+  transform: translateX(4px);
+}
+
+.offer-note {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.5;
+  max-width: 24em;
+}
+
+/*--------------------------------------------------------------
+# Faixa de argumentos numéricos
+--------------------------------------------------------------*/
+.svc-facts {
+  border-top: 1px solid var(--rule-color);
+  border-bottom: 1px solid var(--rule-color);
+  padding: 44px 0;
+  background: color-mix(in srgb, var(--surface-color), transparent 55%);
+}
+
+.svc-facts .fact {
+  padding: 8px 4px;
+}
+
+.svc-facts .fact-value {
+  font-family: var(--heading-font);
+  font-size: clamp(2rem, 3.4vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--accent-color);
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+}
+
+.svc-facts .fact-label {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--muted-color);
+}
+
+.svc-facts .fact-source {
+  margin-top: 28px;
+  font-size: 12.5px;
+  color: color-mix(in srgb, var(--default-color), transparent 55%);
+}
+
+/*--------------------------------------------------------------
+# Blocos de conteúdo
+--------------------------------------------------------------*/
+.svc-block {
+  padding: 96px 0;
+}
+
+.svc-block.alt {
+  background: color-mix(in srgb, var(--surface-color), transparent 50%);
+}
+
+.svc-lead-in {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 18px;
+}
+
+.svc-block h2 {
+  font-size: clamp(1.85rem, 3.1vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.16;
+  margin-bottom: 22px;
+}
+
+.svc-block p {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--muted-color);
+}
+
+.svc-block .figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--rule-color);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.4);
+}
+
+.svc-block .figure figcaption {
+  margin-top: 14px;
+  font-size: 13.5px;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  line-height: 1.6;
+}
+
+/*--------------------------------------------------------------
+# Comparativo: rede social x site próprio
+--------------------------------------------------------------*/
+.svc-compare {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 48px;
+}
+
+@media (max-width: 767px) {
+  .svc-compare {
+    grid-template-columns: 1fr;
+  }
+}
+
+.svc-compare .col-card {
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid var(--rule-color);
+  background: var(--surface-color);
+}
+
+.svc-compare .col-card.win {
+  border-color: color-mix(in srgb, var(--accent-color), transparent 55%);
+  background:
+    linear-gradient(160deg, color-mix(in srgb, var(--accent-color), transparent 90%), transparent 55%),
+    var(--surface-color);
+  box-shadow: 0 16px 40px color-mix(in srgb, var(--accent-color), transparent 88%);
+}
+
+.svc-compare .col-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--rule-color);
+}
+
+.svc-compare .col-head i {
+  font-size: 22px;
+}
+
+.svc-compare .col-card h3 {
+  font-size: 1.1875rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.svc-compare ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.svc-compare li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 11px 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--muted-color);
+}
+
+.svc-compare li i {
+  flex-shrink: 0;
+  font-size: 17px;
+  margin-top: 1px;
+}
+
+.svc-compare .col-card.lose li i {
+  color: #e05a5a;
+}
+
+.svc-compare .col-card.win li i {
+  color: #3ddc97;
+}
+
+/*--------------------------------------------------------------
+# Benefícios
+--------------------------------------------------------------*/
+.svc-benefits {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 56px;
+}
+
+@media (max-width: 991px) {
+  .svc-benefits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575px) {
+  .svc-benefits {
+    grid-template-columns: 1fr;
+  }
+}
+
+.svc-benefit {
+  position: relative;
+  padding: 32px 28px;
+  border-radius: 16px;
+  background: var(--surface-color);
+  border: 1px solid var(--rule-color);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.svc-benefit:hover {
+  transform: translateY(-5px);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 60%);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.35);
+}
+
+.svc-benefit .b-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 88%);
+  margin-bottom: 22px;
+}
+
+.svc-benefit h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.svc-benefit p {
+  font-size: 14.75px;
+  line-height: 1.7;
+  color: var(--muted-color);
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Objeções
+--------------------------------------------------------------*/
+.svc-objections {
+  max-width: 880px;
+  margin: 56px auto 0;
+}
+
+.svc-objection {
+  border: 1px solid var(--rule-color);
+  border-radius: 14px;
+  background: var(--surface-color);
+  padding: 28px 30px;
+  margin-bottom: 16px;
+}
+
+.svc-objection h3 {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  line-height: 1.5;
+}
+
+.svc-objection h3 .quote {
+  color: var(--accent-color);
+  font-size: 22px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.svc-objection p {
+  font-size: 15.25px;
+  line-height: 1.75;
+  color: var(--muted-color);
+  margin: 0;
+  padding-left: 34px;
+}
+
+/*--------------------------------------------------------------
+# Processo
+--------------------------------------------------------------*/
+.svc-steps {
+  counter-reset: step;
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+}
+
+@media (max-width: 991px) {
+  .svc-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575px) {
+  .svc-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+.svc-step {
+  counter-increment: step;
+  padding: 0 28px;
+  border-left: 1px solid var(--rule-color);
+}
+
+@media (max-width: 575px) {
+  .svc-step {
+    padding: 0 0 0 24px;
+    margin-bottom: 32px;
+  }
+}
+
+.svc-step::before {
+  content: "0" counter(step);
+  display: block;
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+  color: color-mix(in srgb, var(--accent-color), transparent 55%);
+  letter-spacing: -0.04em;
+  margin-bottom: 18px;
+}
+
+.svc-step h3 {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.svc-step p {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--muted-color);
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Fechamento
+--------------------------------------------------------------*/
+.svc-final {
+  padding: 96px 0 110px;
+  position: relative;
+  overflow: hidden;
+}
+
+.svc-final::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(55% 70% at 50% 0%, color-mix(in srgb, var(--accent-color), transparent 82%), transparent 72%);
+  pointer-events: none;
+}
+
+.svc-final > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.svc-final-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.svc-final h2 {
+  font-size: clamp(1.9rem, 3.6vw, 2.9rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.14;
+  margin-bottom: 20px;
+}
+
+.svc-final p {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--muted-color);
+  margin-bottom: 36px;
+}
+
+.svc-final .svc-actions {
+  justify-content: center;
+}
+
+.svc-final .reassure {
+  margin-top: 28px;
+  font-size: 13.5px;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.svc-final .reassure i {
+  color: #3ddc97;
+}
+
+.svc-final .reassure + .reassure {
+  margin-top: 10px;
+}
+
+.svc-final .reassure .bi-gift-fill {
+  color: #ffd98a;
+}

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" width="820" height="560" role="img" aria-label="Uma loja física fechada à noite enquanto o site da empresa continua atendendo clientes pela internet">
+  <defs>
+    <linearGradient id="vbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a2e"/><stop offset="1" stop-color="#050f1d"/>
+    </linearGradient>
+    <linearGradient id="vac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4aa8ff"/><stop offset="1" stop-color="#1f6fd0"/>
+    </linearGradient>
+    <linearGradient id="vglow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4aa8ff" stop-opacity=".35"/><stop offset="1" stop-color="#4aa8ff" stop-opacity="0"/>
+    </linearGradient>
+    <style>.t{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+  </defs>
+
+  <rect width="820" height="560" fill="url(#vbg)"/>
+  <circle cx="660" cy="110" r="190" fill="#208bf4" opacity=".07"/>
+  <circle cx="120" cy="470" r="150" fill="#208bf4" opacity=".05"/>
+
+  <!-- estrelas / noite -->
+  <g fill="#cfe2f7" opacity=".5">
+    <circle cx="96" cy="64" r="2"/><circle cx="168" cy="108" r="1.6"/><circle cx="242" cy="52" r="2.2"/>
+    <circle cx="322" cy="96" r="1.5"/><circle cx="58" cy="146" r="1.8"/><circle cx="392" cy="48" r="1.7"/>
+  </g>
+  <g fill="#ffd166" opacity=".55">
+    <circle cx="128" cy="96" r="20"/>
+  </g>
+  <circle cx="120" cy="90" r="20" fill="#0b1a2e"/>
+
+  <!-- loja física fechada -->
+  <g>
+    <rect x="60" y="250" width="300" height="212" rx="10" fill="#132842"/>
+    <path d="M44 250h332l-18-46H62z" fill="#1c3a5e"/>
+    <rect x="86" y="292" width="248" height="128" rx="8" fill="#0d1c2e"/>
+    <!-- grade de loja fechada -->
+    <g stroke="#31567c" stroke-width="4" opacity=".85">
+      <path d="M92 300h236M92 318h236M92 336h236M92 354h236M92 372h236M92 390h236M92 408h236"/>
+    </g>
+    <!-- placa fechado -->
+    <g transform="translate(150,326) rotate(-4)">
+      <rect x="0" y="0" width="120" height="56" rx="8" fill="#e8eef5"/>
+      <text class="t" x="60" y="26" text-anchor="middle" fill="#7c8a99" font-size="13" font-weight="600">HORÁRIO</text>
+      <text class="t" x="60" y="45" text-anchor="middle" fill="#c0392b" font-size="17" font-weight="800">FECHADO</text>
+    </g>
+    <text class="t" x="210" y="232" text-anchor="middle" fill="#6d8299" font-size="15">19h32 — seg. a sex. até as 18h</text>
+  </g>
+
+  <!-- cliente indo embora -->
+  <g transform="translate(392,352)" opacity=".75">
+    <circle cx="0" cy="0" r="13" fill="#5d738c"/>
+    <rect x="-13" y="18" width="26" height="46" rx="8" fill="#5d738c"/>
+    <text class="t" x="0" y="92" text-anchor="middle" fill="#7f93a8" font-size="13">volta outro dia?</text>
+  </g>
+
+  <!-- site sempre aberto -->
+  <g transform="translate(452,140)">
+    <rect x="-16" y="-16" width="336" height="300" rx="24" fill="url(#vglow)"/>
+    <rect x="0" y="0" width="304" height="230" rx="14" fill="#0d1c2e" stroke="#31567c" stroke-width="3"/>
+    <rect x="12" y="12" width="280" height="206" rx="8" fill="#ffffff"/>
+
+    <!-- barra do navegador -->
+    <rect x="12" y="12" width="280" height="26" rx="8" fill="#e9eff6"/>
+    <rect x="12" y="26" width="280" height="12" fill="#e9eff6"/>
+    <circle cx="26" cy="25" r="4" fill="#ff6058"/><circle cx="40" cy="25" r="4" fill="#ffbd2e"/><circle cx="54" cy="25" r="4" fill="#28c840"/>
+    <rect x="68" y="18" width="210" height="15" rx="7" fill="#ffffff"/>
+    <text class="t" x="80" y="29" fill="#8ba0b5" font-size="10">🔒 suaempresa.com.br</text>
+
+    <!-- conteúdo do site -->
+    <rect x="12" y="38" width="280" height="34" fill="#0f2740"/>
+    <circle cx="32" cy="55" r="8" fill="url(#vac)"/>
+    <text class="t" x="46" y="60" fill="#ffffff" font-size="12" font-weight="700">Sua Empresa</text>
+    <g class="t" font-size="9" fill="#c3d8ec">
+      <text x="176" y="59">Serviços</text><text x="222" y="59">Sobre</text><text x="258" y="59">Contato</text>
+    </g>
+
+    <text class="t" x="32" y="104" fill="#12263c" font-size="17" font-weight="800">Atendemos você agora.</text>
+    <text class="t" x="32" y="124" fill="#6b8299" font-size="11">Orçamento em minutos, a qualquer hora.</text>
+    <rect x="32" y="138" width="106" height="30" rx="8" fill="url(#vac)"/>
+    <text class="t" x="85" y="158" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700">Pedir orçamento</text>
+    <rect x="148" y="138" width="76" height="30" rx="8" fill="none" stroke="#1f6fd0" stroke-width="2"/>
+    <text class="t" x="186" y="158" text-anchor="middle" fill="#1f6fd0" font-size="11" font-weight="600">WhatsApp</text>
+
+    <g fill="#eef4fa">
+      <rect x="32" y="182" width="76" height="24" rx="6"/>
+      <rect x="116" y="182" width="76" height="24" rx="6"/>
+      <rect x="200" y="182" width="76" height="24" rx="6"/>
+    </g>
+    <g fill="#b3c6d8">
+      <rect x="42" y="192" width="46" height="5" rx="2.5"/>
+      <rect x="126" y="192" width="52" height="5" rx="2.5"/>
+      <rect x="210" y="192" width="40" height="5" rx="2.5"/>
+    </g>
+
+    <!-- selo 24h -->
+    <g transform="translate(246,-26)">
+      <circle cx="30" cy="30" r="30" fill="#059652"/>
+      <text class="t" x="30" y="28" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="800">24h</text>
+      <text class="t" x="30" y="42" text-anchor="middle" fill="#d6f5e5" font-size="9" font-weight="600">no ar</text>
+    </g>
+  </g>
+
+  <!-- clientes chegando pelo site -->
+  <g>
+    <path d="M436 430q60-40 128-40" stroke="#4aa8ff" stroke-width="2.5" fill="none" stroke-dasharray="7 7" opacity=".8"/>
+    <path d="M436 452q90 20 190 4" stroke="#4aa8ff" stroke-width="2.5" fill="none" stroke-dasharray="7 7" opacity=".55"/>
+    <g fill="#4aa8ff">
+      <circle cx="576" cy="392" r="4"/><circle cx="628" cy="454" r="4"/>
+    </g>
+  </g>
+
+  <g class="t">
+    <g transform="translate(486,472)">
+      <rect x="0" y="0" width="300" height="56" rx="12" fill="#101f33" stroke="#2c4a6e" stroke-width="1.5"/>
+      <circle cx="30" cy="28" r="14" fill="#059652" opacity=".2"/>
+      <path d="M24 28l4 5 8-10" stroke="#3ddc97" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="54" y="24" fill="#ffffff" font-size="13" font-weight="700">3 orçamentos recebidos</text>
+      <text x="54" y="42" fill="#8ea7c0" font-size="11">enquanto a loja estava fechada</text>
+    </g>
+  </g>
+</svg>
